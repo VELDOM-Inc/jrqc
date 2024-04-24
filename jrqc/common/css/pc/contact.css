@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* ============================================================ */
+/* contact */
+/* ============================================================ */
+.contact-mail {
+	text-align: center;
+	width: 100%;
+	padding-top: 140px;
+	padding-bottom: 140px;
+	margin: 0 0 30px;
+	font-size: 3.6rem;
+}
+
+.contact-mail__link {
+	color: var(--red);
+	font-weight: 500;
+	text-decoration: none;
+}
+
+.contents__inner._contact_ .h3 {
+	font-size: 2.6rem;
+	margin: 0 0 35px;
+}
+
+.contact-bnr {
+	border-top: 1px solid var(--black-text);
+	padding: 20px 0 0;
+	margin: 120px 0 0;
+}
+
+.contact-bnr__list {
+	margin: 85px 7px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1155px) {
+	.contact-bnr__list {
+		margin: 85px 0 0;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+.contact-bnr__item {
+	margin: 0 28px;
+	border: 1px solid var(--black-text);
+	background: var(--white);
+	width: calc(50% - 28px);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1155px) {
+	.contact-bnr__item {
+		width: 75%;
+		margin: 0 0 20px;
+	}
+}
+
+.contact-bnr__link {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 40px 25px 50px;
+	color: var(--black-text);
+	font-size: 3.6rem;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+.contact-bnr__link._siyousyo_ {
+	padding: 40px 50px 50px;
+}
+
+.contact-bnr__img {
+	width: 123px;
+}
+
+.contact-bnr__detail {
+	width: calc(100% - 123px);
+	margin: 0 0 0 25px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1155px) {
+	.contact-bnr__detail {
+		width: auto;
+	}
+}
+
+.contact-bnr__link._siyouyo_ .contact-bnr__detail {
+	margin: 0 0 0 50px;
+}
+
+.contact-bnr__detail .__txt {
+	font-size: 1.8rem;
+	font-weight: 400;
+	border-bottom: none;
+}
+
+.contact-bnr__detail .__txt::after {
+	display: none;
+}
+
+.contact-bnr-logo {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact-bnr-logo__img {
+	width: 72px;
+}
+
+.contact-bnr-logo__txt {
+	width: calc(100% - 72px);
+	margin: 0 0 0 20px;
+}

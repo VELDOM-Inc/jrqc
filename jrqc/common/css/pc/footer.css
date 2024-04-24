@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* ============================================================ */
+/* footer */
+/* ============================================================ */
+.footer {
+	width: 100%;
+	padding: 0 0 50px;
+	position: relative;
+}
+
+/* fnav
+------------------------------------------------------------ */
+.fnav {
+	background: #5c5c5c;
+	color: var(--white);
+}
+
+.fnav__inner {
+	max-width: 1308px;
+	margin: 0 auto;
+	padding: 90px 25px 120px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.fnav__item {
+	width: 22.23%;
+}
+
+.fnav__item._business_ {
+	width: calc((100% - 44.46%) - 56px);
+}
+
+.fnav-ttl {
+	font-size: 2.0rem;
+	border-bottom: 1px solid var(--white);
+	margin: 0 0 10px;
+	padding: 0 0 5px;
+	font-weight: 500;
+	line-height: 1.6;
+}
+
+.fnav-ttl._recruit_ {
+	margin: 0 0 50px;
+}
+
+.fnav-ttl._privacy_ {
+	border-bottom: none;
+	margin: 10px 0 0;
+}
+
+.fnav-ttl .__link {
+	color: var(--white);
+	text-decoration: none;
+}
+
+.fnav__block {
+	display: flex;
+	justify-content: space-between;
+}
+
+.fnav__block._about_ {
+	display: block;
+}
+
+.fnav-sub._infrastructure_ {
+	width: 40%;
+}
+
+.fnav-sub._ict_ {
+	width: 50%;
+}
+
+.fnav-sub {
+}
+
+.fnav-sub__item {
+	line-height: 2.0;
+}
+
+.fnav-sub__link {
+	font-size: 1.8rem;
+	color: var(--white);
+	display: inline-flex;
+	justify-content: flex-start;
+	text-decoration: none;
+}
+
+.fnav-sub__link:hover .__txt {
+	opacity: 0.6;
+}
+
+.fnav-sub__link .__txt {
+	transition: all .4s;
+	border-bottom: none;
+}
+
+.fnav-sub__link .__txt::after {
+	display: none;
+}
+
+.fnav-sub__link .__space {
+	letter-spacing: -0.45rem;
+}
+
+.fnav-sub__link .__ico {
+	margin: 5px 0 0;
+}
+
+
+/* footer__bottom
+------------------------------------------------------------ */
+.footer__bottom {
+	padding: 15px 50px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1196px) {
+	.footer__bottom {
+		padding: 15px 20px 0;
+	}
+}
+
+.footer-logo {
+	width: 480px;
+	margin: 10px 0 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1196px) {
+	.footer-logo {
+		width: 270px;
+	}
+}
+
+.footer-logo__link {
+	display: block;
+	width: 100%;
+}
+
+/* footer copyright
+------------------------------------------------------------ */
+.footer__copyright {
+	font-size: 1.7rem;
+	line-height: 1.6;
+	font-family: "メイリオ", "Meiryo","ＭＳ ゴシック","Hiragino Kaku Gothic ProN","ヒラギノ角ゴ ProN W3",sans-serif;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 930px) {
+	.footer__copyright {
+		font-size: 1.3rem;
+	}
+}
+
+
+/* ============================================================ */
+/* .pagetop */
+/* ============================================================ */
+.pagetop {
+	position: fixed;
+	right: 50px;
+	/*right: 300px;*/
+	z-index: 4; 
+	opacity: 0;
+	transform: translateY(100px);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+	.pagetop {
+		right: 50px;
+	}
+}
+
+.pagetop__link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #5c5c5c;
+	border: 1px solid #5c5c5c;
+	color: var(--white);
+	line-height: 1.2;
+	text-decoration: none;
+	transition: all .4s;
+	width: 73px;
+	height: 73px;
+}
+
+.pagetop__link:hover {
+	background: var(--white);
+	color: #5c5c5c;
+}
+
+.pagetop__link .__ico {
+	font-size: 4.0rem;
+	line-height: 1.0;
+}
+
+/*　上に上がる動き　*/
+.pagetop.UpMove {
+	animation: UpAnime 0.5s forwards;
+}
+
+@keyframes UpAnime{
+  from {
+    opacity: 0;
+		transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+		transform: translateY(0);
+  }
+}
+
+/*　下に下がる動き　*/
+.pagetop.DownMove{
+	animation: DownAnime 0.5s forwards;
+}
+
+@keyframes DownAnime{
+  from {
+  	opacity: 1;
+		transform: translateY(0);
+  }
+  to {
+  	opacity: 0;
+		transform: translateY(100px);
+  }
+}

@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* ============================================================ */
+/* 基本設定 */
+/* ============================================================ */
+html {
+}
+
+body {
+	color: var(--black-text);
+	/*font-family: "a-otf-ud-shin-go-pr6n", sans-serif;
+	font-weight: 600;*/
+	font-style: normal;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 400;
+	line-height: 1.8;
+	text-align: center;
+	-webkit-text-size-adjust: none;
+}
+
+body.show {
+	overflow-y: hidden;
+	height: 100%;
+}
+
+.wrapper {
+	font-size: 1.8rem;
+	position: relative;
+	z-index: 1;
+	text-align: left;
+	overflow: hidden;
+	/*padding: 106px 0 0;*/
+}
+
+.sp_view {
+	display: none !important;
+}
+
+img {
+	width: 100%;
+}
+
+:root{
+  --red: #ff0000;
+	--blue: #0000ff;
+  --white: #fff;
+  --black: #000;
+	--gray: #CFCFCF;
+	--bg-pink: rgba(255,0,0,0.15);
+	--black-text: #4d4d4d;
+	--line-gray: #3a3a3a;
+	--bg-h2: 1px;
+}
+
+
+/* ============================================================ */
+/* リンク設定 */
+/* ============================================================ */
+a {
+	text-decoration: none;
+	color: var(--blue);
+	line-height: 1.4;
+}
+
+a:hover {
+}
+
+a .__txt {
+	transition: border-bottom .4s;
+	border-bottom: 1px solid var(--blue);
+}
+
+a:hover .__txt {
+	border-bottom-color: transparent;
+	border-bottom-width: 1px;
+}
+
+.textBlue .__txt {
+	border-bottom: 1px solid #0071b8;
+} 
+
+a img {
+}
+
+a:hover img {
+	opacity: 1;
+}
+
+a[href*="tel:"] {
+	cursor: default;
+	color: var(--black-text);
+	text-decoration: none;
+}
+
+
+/* link-opacity */
+.link-opacity {
+	transition: all .4s;
+}
+
+.link-opacity:hover {
+	opacity: 0.6;
+}
+
+
+/* テキストスタイル
+------------------------------------------------------------ */
+.txt_bold {
+	font-weight: 600;
+}
+
+.txt_en {
+	font-family: Futura, "Century Gothic", sans-serif;
+}
+
+.txt_kozuka {
+	font-family: "kozuka-gothic-pr6n", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.txt_kozuka_bold {
+	font-family: "kozuka-gothic-pr6n", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+

@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* ============================================================ */
+/* contact */
+/* ============================================================ */
+.contact__inner .text16_sp {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.contact__inner .list {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.contact__inner .table--wide {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.contact-mail {
+	text-align: center;
+	width: 100%;
+	padding-top: 140px;
+	padding-bottom: 130px;
+	font-size: 2.4rem;
+	line-height: 1.4;
+}
+
+.contact-mail__link {
+	color: var(--red);
+	font-weight: 500;
+	text-decoration: none;
+}
+
+.contents__inner._contact_ .h3 {
+	font-size: 2.2rem;
+	margin: 0 0 20px;
+}
+
+.contact-bnr {
+	border-top: 1px solid var(--black-text);
+	padding: 85px 0 0;
+	margin: 115px 0 0;
+}
+
+.contact-bnr__list {
+	margin: 40px 0 0;
+}
+
+.contact-bnr__item {
+	margin: 0 0 25px;
+	border: 1px solid var(--black-text);
+	background: var(--white);
+}
+
+.contact-bnr__link {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px 15px 35px;
+	color: var(--black-text);
+	font-size: 2.4rem;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+.contact-bnr__link._siyousyo_ {
+	padding: 40px 25px;
+}
+
+.contact-bnr__img {
+	width: 87px;
+}
+
+.contact-bnr__detail {
+	/*width: calc(100% - 87px);*/
+	margin: 0 0 0 10px;
+}
+
+.contact-bnr__link._siyousyo_ .contact-bnr__detail {
+	margin: 0 0 0 30px;
+}
+
+.contact-bnr__detail .__txt {
+	font-size: 1.3rem;
+	font-weight: 400;
+	border-bottom: none;
+}
+
+.contact-bnr__detail .__txt::after {
+	display: none;
+}
+
+.contact-bnr-logo {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact-bnr-logo__img {
+	width: 50px;
+}
+
+.contact-bnr-logo__txt {
+	width: calc(100% - 50px);
+	margin: 0 0 0 10px;
+}
+
+

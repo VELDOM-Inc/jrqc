@@ -1,0 +1,262 @@
+@charset "utf-8";
+/* ============================================================ */
+/* .about-box */
+/* ============================================================ */
+.about-box {
+	padding-top: 135px;
+}
+
+.about-box__inner {
+	margin-top: -135px;
+	padding-top: 135px;
+}
+
+/* ============================================================ */
+/* .about-ideal */
+/* ============================================================ */
+.about-ideal__txt {
+	max-width: 885px;
+	margin: 0 auto 40px;
+}
+
+.about-ideal__img {
+	max-width: 870px;
+	margin: 0 auto;
+}
+
+/* ============================================================ */
+/* .about-greeting */
+/* ============================================================ */
+.about-greeting {
+	margin: 170px 0 0;
+}
+
+.about-greeting__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.about-greeting__img {
+	width: 269px;
+}
+
+.about-greeting__img .__txt {
+	text-align: right;
+	margin: 15px 0 0;
+}
+
+.about-greeting__txt {
+	width: calc(100% - 269px);
+	margin: 0 40px 0 0;
+}
+
+/* ============================================================ */
+/* .about-outline */
+/* ============================================================ */
+.about-outline {
+	margin-top: 50px;
+}
+
+.about-outline .table {
+	margin: 0 0 35px;
+}
+
+.about-outline .table ._justify_ {
+	width: 13%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1315px) {
+	.about-outline .table ._justify_ {
+		width: 23%;
+	}
+}
+
+.about-outline .table ._border-left_ {
+	width: 87%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1315px) {
+	.about-outline .table ._border-left_ {
+		width: 77%;
+	}
+}
+
+/* ============================================================ */
+/* .about-office */
+/* ============================================================ */
+.about-office {
+	margin-top: 150px;
+	margin-bottom: 180px;
+}
+
+.about-office-map {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.about-office-map__address {
+	width: calc(100% - 148px);
+	margin: 0 20px 0 0;
+}
+
+.about-office .table ._justify_ {
+	width: 13%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1315px) {
+	.about-office .table ._justify_ {
+		width: 23%;
+	}
+}
+
+.about-office .table ._border-left_ {
+	width: 87%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1315px) {
+	.about-office .table ._border-left_ {
+		width: 77%;
+	}
+}
+
+/* ============================================================ */
+/* .qualified-info */
+/* ============================================================ */
+.qualified-info {
+	margin-top: -5px;
+}
+
+.qualified-info-table {
+	display: flex;
+	justify-content: space-between;
+}
+
+.qualified-info-table__item {
+	width: calc((100% - 80px) / 2);
+}
+
+.qualified-info-table__item .table {
+	font-size: 2.0rem;
+}
+
+.qualified-info-table__item .table th {
+	width: 70%;
+	font-weight: 300;
+}
+
+.qualified-info-table__item .table td {
+	border-left: 1px solid var(--black-text);
+	width: 30%;
+}
+
+.qualified-info-table__item .table ._indent_ {
+	margin: 0 0 0 40px;
+}
+
+/* ============================================================ */
+/* .qualified-award */
+/* ============================================================ */
+.qualified-award {
+	margin-top: 20px;
+}
+
+.qualified-award .table ._year_ {
+	width: 7%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 935px) {
+	.qualified-award .table ._year_ {
+		width: 10%;
+	}
+}
+
+.qualified-award .table ._name_ {
+	width: 50%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 935px) {
+	.qualified-award .table ._name_ {
+		width: 45%;
+	}
+}
+
+.qualified-award .table ._person_ {
+	width: 43%;
+}
+
+.qualified-award-letters {
+	display: flex;
+	justify-content: space-between;
+}
+
+.qualified-award-img {
+	display: flex;
+	justify-content: center;
+	margin: 0 -25px;
+}
+
+.qualified-award-img__item {
+	margin: 0 25px;
+}
+
+/* ============================================================ */
+/* .qualified-welfare */
+/* ============================================================ */
+.qualified-welfare {
+	margin-bottom: 170px;
+}
+
+.qualified-welfare-block {
+	margin: 0 0 100px;
+}
+
+.qualified-welfare-block .box {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 860px) {
+	.qualified-welfare-block .box {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}
+
+.qualified-welfare .table {
+	line-height: 1.6;
+}
+
+.qualified-welfare-img {
+	margin: 85px -30px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.qualified-welfare-img__item {
+	width: calc((100% - 120px) / 2);
+	margin: 0 30px;
+}
+
+.qualified-welfare-img .__elem {
+	margin: 0 0 5px;
+}
+
+.qualified-welfare-community {
+	display: flex;
+	justify-content: space-between;
+}
+
+.qualified-welfare-community__txt {
+	width: calc(100% - 47.69%);
+	margin: 0 50px 0 0;
+}
+
+.qualified-welfare-community__img {
+	width: 47.69%;
+}
+
+.qualified-welfare-community__img .__elem {
+	margin: 0 0 5px;
+}

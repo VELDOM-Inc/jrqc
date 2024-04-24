@@ -1,0 +1,533 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" lang="ja">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>テンプレート：カラム制御・左右回り込み系</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="robots" content="noindex, nofollow">
+		<!--============================================== html_head -->
+		<!--#include virtual="/jrqc/common/inc/html_head.html" -->
+		<!--============================================== /html_head -->
+		<style type="text/css">
+			.pre {
+				width: 100%;
+				max-width: 1200px;
+				border: 3px double #ddd;
+				padding: 15px;
+				margin: 15px 0 50px;
+				font-size: 11px;
+				overflow-x: auto;
+			}
+		</style>		
+	</head>
+
+	<body>
+		<!--============================================== body_head -->
+		<!--#include virtual="/jrqc/common/inc/body_head.html" -->
+		<!--============================================== /body_head -->
+
+		<div class="wrapper">
+			<!--============================================== header -->
+			<!--#include virtual="/jrqc/common/inc/header.html" -->
+			<!--============================================== /header -->
+
+			<div class="h1 _base_ _narrow_">
+				<h1 class="h1__inner">
+					<span class="__en txt_poppins">column</span>
+					<span class="__txt">カラム制御・左右回り込み系</span>
+				</h1>
+			</div>
+
+			<!-- .contents -->
+			<div class="contents">
+				<div class="contents__inner _narrow_">
+					<ul class="column column3 sp-column1 mb20">
+						<li class="__col"><a href="/template/template1.html" class="btn _outline_ _m0_ wp100 _w-s_">見出し・タイトル・テキスト系</a></li>
+						<li class="__col"><a href="/template/template2.html" class="btn _outline_ _m0_ wp100 _w-s_">カラム制御・左右回り込み系</a></li>
+						<li class="__col"><a href="/template/template3.html" class="btn _outline_ _m0_ wp100 _w-s_">リスト・囲み罫系</a></li>
+						<li class="__col"><a href="/template/template4.html" class="btn _outline_ _m0_ wp100 _w-s_">テーブル系・ボタン・ナビ系</a></li>
+						<li class="__col"><a href="/template/template5.html" class="btn _outline_ _m0_ wp100 _w-s_">汎用制御・特定要素・その他</a></li>
+					</ul>
+					<ul class="column column3 sp-column1 mb60">
+						<li class="__col"><a href="/template/column02-a.html" class="btn _outline_ _m0_ wp100 _w-s_">2カラムレイアウトサンプルA</a></li>
+					</ul>
+					
+				
+					<h2 class="h2">
+						<span class="__jp">カラム制御-等幅</span>
+						<span class="__en">column</span>
+					</h2>
+					<h3 class="h4">PC・SP 1カラム class="column column1"</h3>
+				<div class="column column1 u-mb40">
+					<div>
+						<img src="https://placehold.jp/650x500.png" alt="" class="u-mb15">
+						<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+					</div>
+				</div>
+				<div class="pre">
+					<pre><code>&lt;div class="column column1"&gt;
+	&lt;div&gt;
+		&lt;img src="https://placehold.jp/650x500.png" alt="" class="u-mb15"&gt;
+		&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+				</div>
+
+					<h3 class="h4">PC・SP 2カラム class="column column2"</h3>
+				<div class="column column2 u-mb40">
+					<div>
+						<a href="#">
+							<img src="https://placehold.jp/345x230.png" alt="" class="u-mb15">
+							<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+						</a>
+					</div>
+					<div>
+						<img src="https://placehold.jp/650x500.png" alt="" class="u-mb15">
+						<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+					</div>
+					<div>
+						<a href="#">
+							<img src="https://placehold.jp/345x230.png" alt="" class="u-mb15">
+							<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+						</a>
+					</div>
+				</div>
+				<div class="pre">
+					<pre><code>&lt;div class="column column2"&gt;
+	&lt;div&gt;
+		&lt;a href="#"&gt;
+			&lt;img src="https://placehold.jp/345x230.png" alt="" class="u-mb15"&gt;
+			&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;img src="https://placehold.jp/650x500.png" alt="" class="u-mb15"&gt;
+		&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;a href="#"&gt;
+			&lt;img src="https://placehold.jp/345x230.png" alt="" class="u-mb15"&gt;
+			&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+				</div>
+
+					<h3 class="h4">PC 2カラム・SP 1カラム class="column column2 sp-column1"</h3>
+				<div class="column column2 sp-column1 u-mb40">
+					<div>
+						<a href="#">
+							<img src="https://placehold.jp/345x230.png" alt="" class="u-mb15">
+							<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+						</a>
+					</div>
+					<div>
+						<img src="https://placehold.jp/650x500.png" alt="" class="u-mb15">
+						<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+					</div>
+				</div>
+				<div class="pre">
+					<pre><code>&lt;div class="column column2 sp-column1"&gt;
+	&lt;div&gt;
+		&lt;a href="#"&gt;
+			&lt;img src="https://placehold.jp/345x230.png" alt="" class="u-mb15"&gt;
+			&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;img src="https://placehold.jp/650x500.png" alt="" class="u-mb15"&gt;
+		&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+				</div>
+
+					<h3 class="h4">PC・SP 3カラム class="column column3"</h3>
+				<div class="column column3 mb40">
+					<div>
+						<a href="#">
+							<img src="https://placehold.jp/345x230.png" alt="" class="u-mb15">
+							<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+						</a>
+					</div>
+					<div>
+						<img src="https://placehold.jp/650x500.png" alt="" class="u-mb15">
+						<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+					</div>
+					<div>
+						<a href="#">
+							<img src="https://placehold.jp/345x230.png" alt="" class="u-mb15">
+							<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+						</a>
+					</div>
+				</div>
+				<div class="pre">
+					<pre><code>&lt;div class="column column3"&gt;
+	&lt;div&gt;
+		&lt;a href="#"&gt;
+			&lt;img src="https://placehold.jp/345x230.png" alt="" class="u-mb15"&gt;
+			&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;img src="https://placehold.jp/650x500.png" alt="" class="u-mb15"&gt;
+		&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;a href="#"&gt;
+			&lt;img src="https://placehold.jp/345x230.png" alt="" class="u-mb15"&gt;
+			&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+				</div>
+
+					<h3 class="h4">PC 3カラム・SP 1カラム class="column column3 sp-column1"</h3>
+				<div class="column column3 sp-column1 mb40">
+					<div>
+						<a href="#">
+							<img src="https://placehold.jp/345x230.png" alt="" class="u-mb15">
+							<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+						</a>
+					</div>
+					<div>
+						<img src="https://placehold.jp/650x500.png" alt="" class="u-mb15">
+						<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+					</div>
+					<div>
+						<a href="#">
+							<img src="https://placehold.jp/345x230.png" alt="" class="u-mb15">
+							<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+						</a>
+					</div>
+				</div>
+				<div class="pre">
+					<pre><code>&lt;div class="column column3 sp-column1"&gt;
+	&lt;div&gt;
+		&lt;a href="#"&gt;
+			&lt;img src="https://placehold.jp/345x230.png" alt="" class="u-mb15"&gt;
+			&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;img src="https://placehold.jp/650x500.png" alt="" class="u-mb15"&gt;
+		&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;a href="#"&gt;
+			&lt;img src="https://placehold.jp/345x230.png" alt="" class="u-mb15"&gt;
+			&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+				</div>
+
+					<h3 class="h4">PC 3カラム・SP 2カラム class="column column3 sp-column2"</h3>
+				<div class="column column3 sp-column2 mb40">
+					<div>
+						<a href="#">
+							<img src="https://placehold.jp/345x230.png" alt="" class="u-mb15">
+							<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+						</a>
+					</div>
+					<div>
+						<img src="https://placehold.jp/650x500.png" alt="" class="u-mb15">
+						<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+					</div>
+					<div>
+						<a href="#">
+							<img src="https://placehold.jp/345x230.png" alt="" class="u-mb15">
+							<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+						</a>
+					</div>
+				</div>
+				<div class="pre">
+					<pre><code>&lt;div class="column column3 sp-column2"&gt;
+	&lt;div&gt;
+		&lt;a href="#"&gt;
+			&lt;img src="https://placehold.jp/345x230.png" alt="" class="u-mb15"&gt;
+			&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;img src="https://placehold.jp/650x500.png" alt="" class="u-mb15"&gt;
+		&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;a href="#"&gt;
+			&lt;img src="https://placehold.jp/345x230.png" alt="" class="u-mb15"&gt;
+			&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+				</div>
+
+					<h3 class="h4">PC・SP 4カラム class="column column4"</h3>
+				<div class="column column4 mb40">
+					<div>
+						<a href="#">
+							<img src="https://placehold.jp/345x230.png" alt="" class="u-mb15">
+							<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+						</a>
+					</div>
+					<div>
+						<img src="https://placehold.jp/650x500.png" alt="" class="u-mb15">
+						<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+					</div>
+					<div>
+						<a href="#">
+							<img src="https://placehold.jp/345x230.png" alt="" class="u-mb15">
+							<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+						</a>
+					</div>
+					<div>
+						<img src="https://placehold.jp/650x500.png" alt="" class="u-mb15">
+						<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+					</div>
+					<div>
+						<a href="#">
+							<img src="https://placehold.jp/345x230.png" alt="" class="u-mb15">
+							<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+						</a>
+					</div>
+					<div>
+						<img src="https://placehold.jp/650x500.png" alt="" class="u-mb15">
+						<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+					</div>
+				</div>
+				<div class="pre">
+					<pre><code>&lt;div class="column column4"&gt;
+	&lt;div&gt;
+		&lt;a href="#"&gt;
+			&lt;img src="https://placehold.jp/345x230.png" alt="" class="u-mb15"&gt;
+			&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;img src="https://placehold.jp/650x500.png" alt="" class="u-mb15"&gt;
+		&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;a href="#"&gt;
+			&lt;img src="https://placehold.jp/345x230.png" alt="" class="u-mb15"&gt;
+			&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;img src="https://placehold.jp/650x500.png" alt="" class="u-mb15"&gt;
+		&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;a href="#"&gt;
+			&lt;img src="https://placehold.jp/345x230.png" alt="" class="u-mb15"&gt;
+			&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;img src="https://placehold.jp/650x500.png" alt="" class="u-mb15"&gt;
+		&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+				</div>
+
+					<h3 class="h4">PC 4カラム・SP 2カラム class="column column4 sp-column2"</h3>
+				<div class="column column4 sp-column2 mb40">
+					<div>
+						<a href="#">
+							<img src="https://placehold.jp/345x230.png" alt="" class="u-mb15">
+							<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+						</a>
+					</div>
+					<div>
+						<img src="https://placehold.jp/650x500.png" alt="" class="u-mb15">
+						<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+					</div>
+					<div>
+						<a href="#">
+							<img src="https://placehold.jp/345x230.png" alt="" class="u-mb15">
+							<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+						</a>
+					</div>
+					<div>
+						<img src="https://placehold.jp/650x500.png" alt="" class="u-mb15">
+						<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+					</div>
+				</div>
+				<div class="pre">
+					<pre><code>&lt;div class="column column4 sp-column2"&gt;
+	&lt;div&gt;
+		&lt;a href="#"&gt;
+			&lt;img src="https://placehold.jp/345x230.png" alt="" class="u-mb15"&gt;
+			&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;img src="https://placehold.jp/650x500.png" alt="" class="u-mb15"&gt;
+		&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;a href="#"&gt;
+			&lt;img src="https://placehold.jp/345x230.png" alt="" class="u-mb15"&gt;
+			&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;img src="https://placehold.jp/650x500.png" alt="" class="u-mb15"&gt;
+		&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+				</div>
+					
+					<h3 class="h4">PC・SP 5カラム class="column column5"</h3>
+				<div class="column column5">
+					<div>
+						<a href="#">
+							<img src="https://placehold.jp/345x230.png" alt="" class="u-mb10">
+							<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+						</a>
+					</div>
+					<div>
+						<img src="https://placehold.jp/650x500.png" alt="" class="u-mb10">
+						<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+					</div>
+					<div>
+						<a href="#">
+							<img src="https://placehold.jp/345x230.png" alt="" class="u-mb10">
+							<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+						</a>
+					</div>
+					<div>
+						<img src="https://placehold.jp/650x500.png" alt="" class="u-mb10">
+						<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+					</div>
+					<div>
+						<a href="#">
+							<img src="https://placehold.jp/345x230.png" alt="" class="u-mb10">
+							<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+						</a>
+					</div>
+					<div>
+						<img src="https://placehold.jp/650x500.png" alt="" class="u-mb10">
+						<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+					</div>
+				</div>
+				<div class="pre">
+					<pre><code>&lt;div class="column column5"&gt;
+	&lt;div&gt;
+		&lt;a href="#"&gt;
+			&lt;img src="https://placehold.jp/345x230.png" alt="" class="u-mb10"&gt;
+			&lt;h4 class="ttl05 u-mb10"&gt;小見出し小見出し&lt;/h4&gt;
+			&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;img src="https://placehold.jp/650x500.png" alt="" class="u-mb10"&gt;
+		&lt;h4 class="ttl05 u-mb10"&gt;小見出し小見出し&lt;/h4&gt;
+		&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;a href="#"&gt;
+			&lt;img src="https://placehold.jp/345x230.png" alt="" class="u-mb10"&gt;
+			&lt;h4 class="ttl05 u-mb10"&gt;小見出し小見出し&lt;/h4&gt;
+			&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;img src="https://placehold.jp/650x500.png" alt="" class="u-mb10"&gt;
+		&lt;h4 class="ttl05 u-mb10"&gt;小見出し小見出し&lt;/h4&gt;
+		&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;a href="#"&gt;
+			&lt;img src="https://placehold.jp/345x230.png" alt="" class="u-mb10"&gt;
+			&lt;h4 class="ttl05 u-mb10"&gt;小見出し小見出し&lt;/h4&gt;
+			&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;img src="https://placehold.jp/650x500.png" alt="" class="u-mb10"&gt;
+		&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+				</div>
+
+					<h3 class="h4">PC 5カラム・SP 3カラム class="column column5 sp-column3"</h3>
+				<div class="column column5 sp-column3">
+					<div>
+						<a href="#">
+							<img src="https://placehold.jp/345x230.png" alt="" class="u-mb10">
+							<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+						</a>
+					</div>
+					<div>
+						<img src="https://placehold.jp/650x500.png" alt="" class="u-mb10">
+						<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+					</div>
+					<div>
+						<a href="#">
+							<img src="https://placehold.jp/345x230.png" alt="" class="u-mb10">
+							<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+						</a>
+					</div>
+					<div>
+						<img src="https://placehold.jp/650x500.png" alt="" class="u-mb10">
+						<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+					</div>
+					<div>
+						<a href="#">
+							<img src="https://placehold.jp/345x230.png" alt="" class="u-mb10">
+							<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+						</a>
+					</div>
+				</div>
+				<div class="pre">
+					<pre><code>&lt;div class="column column5 sp-column3"&gt;
+	&lt;div&gt;
+		&lt;a href="#"&gt;
+			&lt;img src="https://placehold.jp/345x230.png" alt="" class="u-mb10"&gt;
+			&lt;h4 class="ttl05 u-mb10"&gt;小見出し小見出し&lt;/h4&gt;
+			&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;img src="https://placehold.jp/650x500.png" alt="" class="u-mb10"&gt;
+		&lt;h4 class="ttl05 u-mb10"&gt;小見出し小見出し&lt;/h4&gt;
+		&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;a href="#"&gt;
+			&lt;img src="https://placehold.jp/345x230.png" alt="" class="u-mb10"&gt;
+			&lt;h4 class="ttl05 u-mb10"&gt;小見出し小見出し&lt;/h4&gt;
+			&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;img src="https://placehold.jp/650x500.png" alt="" class="u-mb10"&gt;
+		&lt;h4 class="ttl05 u-mb10"&gt;小見出し小見出し&lt;/h4&gt;
+		&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;a href="#"&gt;
+			&lt;img src="https://placehold.jp/345x230.png" alt="" class="u-mb10"&gt;
+			&lt;h4 class="ttl05 u-mb10"&gt;小見出し小見出し&lt;/h4&gt;
+			&lt;p&gt;この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。&lt;/p&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+				</div>
+
+				</div>
+			</div>
+			<!-- /.contents -->
+
+			<!--============================================== footer -->
+			<!--#include virtual="/jrqc/common/inc/footer.html" -->
+			<!--============================================== /footer -->
+		</div>
+
+		<!--============================================== html_foot -->
+		<!--#include virtual="/jrqc/common/inc/html_foot.html" -->
+		<!--============================================== /html_foot -->
+	</body>
+</html>

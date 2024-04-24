@@ -1,0 +1,7 @@
+Options +Includes
+AddHandler server-parsed html
+
+ErrorDocument 403 /jrqc/403.html
+ErrorDocument 404 /jrqc/404.html
+ErrorDocument 500 /jrqc/500.html
+ErrorDocument 503 /jrqc/503.html

@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* ============================================================ */
+/* 基本設定 */
+/* ============================================================ */
+html {
+	/*overflow-y: scroll;*/
+	font-size: 62.5%;
+}
+
+body {
+	color: var(--black-text);
+	font-style: normal;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 400;
+	line-height: 1.6;
+	text-align: center;
+	-webkit-text-size-adjust: none;
+}
+
+._gnav-show_ {
+	overflow-y: hidden;
+	height: 100%;
+}
+
+.pc_view {
+	display: none !important;
+}
+
+.wrapper {
+	font-size: 1.75rem;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	text-align: left;
+}
+
+img {
+	width: 100%;
+}
+
+:root{
+  --red: #ff0000;
+	--blue: #0000ff;
+  --white: #fff;
+  --black: #000;
+	--gray: #CFCFCF;
+	--bg-pink: rgba(255,0,0,0.15);
+	--black-text: #4d4d4d;
+	--line-gray: #3a3a3a;
+	--bg-h2: 1px;
+}
+
+/* ============================================================ */
+/* リンク設定 */
+/* ============================================================ */
+a {
+	text-decoration: none;
+	color: var(--blue);
+	line-height: 1.4;
+}
+
+a .__txt {
+	border-bottom: 1px solid var(--blue);
+}
+
+a[href*="tel:"] {
+	cursor: default;
+	color: var(--black-text);
+}
+
+a[href*="tel:"]:hover .__txt {
+	background: none;
+}
+
+.textBlue .__txt {
+	border-bottom: 1px solid #0071b8;
+}
+
+.link-opacity {
+}
+
+
+/* テキストスタイル
+------------------------------------------------------------ */
+.txt_bold {
+	font-weight: 600;
+}
+
+.txt_en {
+	font-family: Futura, "Century Gothic", sans-serif;
+}
+
+.txt_kozuka {
+	font-family: "kozuka-gothic-pr6n", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.txt_kozuka_bold {
+	font-family: "kozuka-gothic-pr6n", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}

@@ -1,0 +1,508 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" lang="ja">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>テンプレート：テーブル・ボタン・ナビ系</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="robots" content="noindex, nofollow">
+		<!--============================================== html_head -->
+		<!--#include virtual="/jrqc/common/inc/html_head.html" -->
+		<!--============================================== /html_head -->
+		<style type="text/css">
+			.pre {
+				width: 100%;
+				max-width: 1200px;
+				border: 3px double #ddd;
+				padding: 15px;
+				margin: 15px 0 50px;
+				font-size: 11px;
+				overflow-x: auto;
+			}
+		</style>		
+	</head>
+
+	<body>
+		<!--============================================== body_head -->
+		<!--#include virtual="/jrqc/common/inc/body_head.html" -->
+		<!--============================================== /body_head -->
+
+		<div class="wrapper">
+			<!--============================================== header -->
+			<!--#include virtual="/jrqc/common/inc/header.html" -->
+			<!--============================================== /header -->
+
+			<div class="h1 _base_ _narrow_">
+				<h1 class="h1__inner">
+					<span class="__en txt_poppins">Table &amp; button</span>
+					<span class="__txt">テーブル・ボタン・ナビ系</span>
+				</h1>
+			</div>
+			
+			<!-- .contents -->
+			<div class="contents">
+				<div class="contents__inner _narrow_">
+					<ul class="column column3 sp-column1 mb20">
+						<li class="__col"><a href="/template/template1.html" class="btn _outline_ _m0_ wp100 _w-s_">見出し・タイトル・テキスト系</a></li>
+						<li class="__col"><a href="/template/template2.html" class="btn _outline_ _m0_ wp100 _w-s_">カラム制御・左右回り込み系</a></li>
+						<li class="__col"><a href="/template/template3.html" class="btn _outline_ _m0_ wp100 _w-s_">リスト・囲み罫系</a></li>
+						<li class="__col"><a href="/template/template4.html" class="btn _outline_ _m0_ wp100 _w-s_">テーブル系・ボタン・ナビ系</a></li>
+						<li class="__col"><a href="/template/template5.html" class="btn _outline_ _m0_ wp100 _w-s_">汎用制御・特定要素・その他</a></li>
+					</ul>
+					<ul class="column column3 sp-column1 mb60">
+						<li class="__col"><a href="/template/column02-a.html" class="btn _outline_ _m0_ wp100 _w-s_">2カラムレイアウトサンプルA</a></li>
+					</ul>
+
+				<h2 class="h2">
+					<span class="__jp">テーブル</span>
+					<span class="__en">Table</span>
+				</h2>
+				<table class="table">
+					<thead>
+						<tr>
+							<th>見出し</th>
+							<th class="">見出し</th>
+							<th class="_al-c_">見出し中央寄せ<br>class="_al-c_"</th>
+							<th class="_al-r_">見出し右寄せ<br>class="_al-r_"</th></tr>
+						</thead>
+					<tbody>
+						<tr>
+							<th>見出し1-1</th>
+							<td>左寄せ<br> class指定なし</td>
+							<td class="_al-c_">中央寄せ<br>class="_al-c_"</td>
+							<td class="_al-r_">右寄せ<br>class="_al-r_"</td>
+						</tr>
+						<tr>
+							<th>見出し1-1</th>
+							<td>左寄せ<br> class指定なし</td>
+							<td class="_al-c_">中央寄せ<br>class="_al-c_"</td>
+							<td class="_al-r_">右寄せ<br>class="_al-r_"</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="pre">
+					<pre><code>&lt;table class="table"&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;見出し&lt;/th&gt;
+			&lt;th class=""&gt;見出し&lt;/th&gt;
+			&lt;th class="_al-c_"&gt;見出し中央寄せ&lt;br&gt;class="_al-c_"&lt;/th&gt;
+			&lt;th class="_al-r_"&gt;見出し右寄せ&lt;br&gt;class="_al-r_"&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th&gt;見出し1-1&lt;/th&gt;
+			&lt;td&gt;左寄せ&lt;br&gt;class指定なし&lt;/td&gt;
+			&lt;td class="_al-c_"&gt;中央寄せ&lt;br&gt;class="_al-c_"&lt;/td&gt;
+			&lt;td class="_al-r_"&gt;右寄せ&lt;br&gt;class="_al-r_"&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;th&gt;見出し1-1&lt;/th&gt;
+			&lt;td&gt;左寄せ&lt;br&gt;class指定なし&lt;/td&gt;
+			&lt;td class="_al-c_"&gt;中央寄せ&lt;br&gt;class="_al-c_"&lt;/td&gt;
+			&lt;td class="_al-r_"&gt;右寄せ&lt;br&gt;class="_al-r_"&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;</code></pre>
+				</div>
+
+				<h3 class="h4">2カラム　class="table _sp-col1_"</h3>
+				<table class="table _sp-col1_">
+					<tbody class="table__body">
+						<tr>
+							<th>見出し</th>
+							<td>このテキストはダミーテキストです。どの要素にスタイルが当たっているか等が一通りチェック出来るような感じになっています。このテキストはダミーテキストです。どの要素にスタイルが当たっているか等が一通りチェック出来るような感じになっています。</td>
+						</tr>
+						<tr>
+							<th>見出し</th>
+							<td>このテキストはダミーテキストです。どの要素にスタイルが当たっているか等が一通りチェック出来るような感じになっています。このテキストはダミーテキストです。どの要素にスタイルが当たっているか等が一通りチェック出来るような感じになっています。</td>
+						</tr>
+						<tr>
+							<th>見出し</th>
+							<td>このテキストはダミーテキストです。どの要素にスタイルが当たっているか等が一通りチェック出来るような感じになっています。</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="pre">
+					<pre><code>&lt;table class="table _sp-col1_"&gt;
+	&lt;tbody class="table__body"&gt;
+		&lt;tr&gt;
+			&lt;th&gt;見出し&lt;/th&gt;
+			&lt;td&gt;このテキストはダミーテキストです。どの要素にスタイルが当たっているか等が一通りチェック出来るような感じになっています。このテキストはダミーテキストです。どの要素にスタイルが当たっているか等が一通りチェック出来るような感じになっています。&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;th&gt;見出し&lt;/th&gt;
+			&lt;td&gt;このテキストはダミーテキストです。どの要素にスタイルが当たっているか等が一通りチェック出来るような感じになっています。このテキストはダミーテキストです。どの要素にスタイルが当たっているか等が一通りチェック出来るような感じになっています。&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;th&gt;見出し&lt;/th&gt;
+			&lt;td&gt;このテキストはダミーテキストです。どの要素にスタイルが当たっているか等が一通りチェック出来るような感じになっています。&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;</code></pre>
+				</div>
+
+				<h3 class="h4">横長　table class="table table--wide"</h3>
+				<table class="table table--wide">
+					<thead>
+						<tr>
+							<th>見出し</th>
+							<th>見出し</th>
+							<th>見出し</th>
+							<th>見出し</th>
+							<th>見出し</th>
+							<th>見出し</th>
+							<th>見出し</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th>見出し1-1</th>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+						</tr>
+						<tr>
+							<th>見出し1-1</th>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+						</tr>
+						<tr>
+							<th>見出し1-1</th>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+						</tr>
+						<tr>
+							<th>見出し1-1</th>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+						</tr>
+						<tr>
+							<th>見出し1-1</th>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+						</tr>
+						<tr>
+							<th>見出し1-1</th>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="pre">
+					<pre><code>&lt;table class="table table--wide"&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;見出し&lt;/th&gt;
+			&lt;th&gt;見出し&lt;/th&gt;
+			&lt;th&gt;見出し&lt;/th&gt;
+			&lt;th&gt;見出し&lt;/th&gt;
+			&lt;th&gt;見出し&lt;/th&gt;
+			&lt;th&gt;見出し&lt;/th&gt;
+			&lt;th&gt;見出し&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th&gt;見出し1-1&lt;/th&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;th&gt;見出し1-1&lt;/th&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;th&gt;見出し1-1&lt;/th&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;th&gt;見出し1-1&lt;/th&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;th&gt;見出し1-1&lt;/th&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;th&gt;見出し1-1&lt;/th&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;</code></pre>
+				</div>
+
+				<h3 class="h4">リスト風　table class="table table--list"</h3>
+				<table class="table table--list">
+					<tbody>
+						<tr>
+							<th>見出し</th>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+						</tr>
+						<tr>
+							<th>見出し</th>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+						</tr>
+						<tr>
+							<th>見出し</th>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="pre">
+					<pre><code>&lt;table class="table table--list"&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th&gt;見出し&lt;/th&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;th&gt;見出し&lt;/th&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;th&gt;見出し&lt;/th&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+			&lt;td&gt;内容&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;</code></pre>
+				</div>
+
+					<h2 class="h2">
+						<span class="__jp">ボタン</span>
+						<span class="__en">button</span>
+					</h2>
+					<h3 class="h3">
+						<span class="__jp">サイトカラー　class="btn _black_"</span>
+						<span class="__en">btn site color</span>
+					</h3>
+				<div>
+					<a href="#" class="btn _black_">
+						<span class="__txt">Link</span>
+					</a>
+					<button class="btn _black_">
+						<span class="__txt">Link</span>
+					</button>
+					<button class="btn _black_ _disabled_" disabled>
+						<span class="__txt">disabled</span>
+					</button>
+				</div>
+				<div class="pre">
+					<pre><code>&lt;a href="#" class="btn _black_"&gt;
+	&lt;span class="__txt"&gt;Link&lt;/span&gt;
+&lt;/a&gt;
+
+&lt;button class="btn _black_"&gt;
+	&lt;span class="__txt"&gt;Link&lt;/span&gt;
+&lt;/button&gt;
+
+&lt;button class="btn _black_ _disabled_" disabled&gt;
+	&lt;span class="__txt"&gt;disabled&lt;/span&gt;
+&lt;/button&gt;</code></pre>
+				</div>
+								
+				<h3 class="h3">
+					<span class="__jp">アウトライン　class="btn _outline_"</span>
+					<span class="__en">btn outline</span>
+				</h3>
+				<div>
+					<a href="#" class="btn _outline_">
+						<span class="__txt">Link</span>
+					</a>
+					<button class="btn _outline_ _disabled_" disabled>
+						<span class="__txt">disabled</span>
+					</button>
+				</div>
+				<div class="pre">
+					<pre><code>&lt;a href="#" class="btn _outline_"&gt;
+	&lt;span class="__txt"&gt;Link&lt;/span&gt;
+&lt;/a&gt;
+
+&lt;button class="btn _outline_ _disabled_" disabled&gt;
+	&lt;span class="__txt"&gt;disabled&lt;/span&gt;
+&lt;/button&gt;</code></pre>
+				</div>
+
+				<h3 class="h3">
+					<span class="__jp">サイズ-大　class="btn _w-l_"</span>
+					<span class="__en">btn large</span>
+				</h3>				
+				<div>
+					<a href="#" class="btn _w-l_ _outline_">
+						<span class="__txt">Link</span>
+					</a>
+				</div>
+				<div class="pre">
+					<pre><code>&lt;a href="#" class="btn _w-l_"&gt;
+	&lt;span class="__txt"&gt;Link&lt;/span&gt;
+&lt;/a&gt;</code></pre>
+				</div>
+			
+				<h3 class="h3">
+					<span class="__jp">サイズ-小　class="btn _w-s_"</span>
+					<span class="__en">btn small</span>
+				</h3>				
+				<div>
+					<a href="#" class="btn _w-s_ _outline_">
+						<span class="__txt">Link</span>
+					</a>
+				</div>
+				<div class="pre">
+					<pre><code>&lt;a href="#" class="btn _w-s_"&gt;
+	&lt;span class="__txt"&gt;Link&lt;/span&gt;
+&lt;/a&gt;</code></pre>
+				</div>
+			
+				<h2 class="h2">
+					<span class="__jp">ページネーション</span>
+					<span class="__en">pagination</span>
+				</h2>
+				<nav class="navigation pagination">
+					<div class="nav-links">
+						<a class="prev page-numbers" href="#"><span class="__ico icon-arrow_left"><span class="__hidden">前のページに戻る</span></span></a>
+						<a class="page-numbers" href="#">1</a>
+						<span class="page-numbers current">2</span>
+						<a class="page-numbers" href="#">3</a>
+						<a class="next page-numbers" href="#"><span class="__ico icon-arrow_right"><span class="__hidden">次のページに進む</span></span></a>
+					</div>
+				</nav>
+				<div class="pre">
+					<pre><code>&lt;nav class=&quot;navigation pagination&quot;&gt;
+	&lt;div class=&quot;nav-links&quot;&gt;
+		&lt;a class=&quot;prev page-numbers&quot; href=&quot;#&quot;&gt;&lt;span class=&quot;__ico icon-arrow_left&quot;&gt;&lt;span class=&quot;__hidden&quot;&gt;前のページに戻る&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;
+		&lt;a class=&quot;page-numbers&quot; href=&quot;#&quot;&gt;1&lt;/a&gt;
+		&lt;span class=&quot;page-numbers current&quot;&gt;2&lt;/span&gt;
+		&lt;a class=&quot;page-numbers&quot; href=&quot;#&quot;&gt;3&lt;/a&gt;
+		&lt;a class=&quot;next page-numbers&quot; href=&quot;#&quot;&gt;&lt;span class=&quot;__ico icon-arrow_right&quot;&gt;&lt;span class=&quot;__hidden&quot;&gt;次のページに進む&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/nav&gt;</code></pre>
+				</div>
+
+				<h2 class="h2">
+					<span class="__jp">ページャー</span>
+					<span class="__en">pager</span>
+				</h2>
+				<ul class="pager">
+					<li class="pager__item _prev_">
+						<a href="#" class="pager__link" aria-label="Previous Page">
+							<span class="__txt">前のページへ</span>
+						</a>
+					</li>
+					<li class="pager__item _list_">
+						<a href="#" class="pager__link">
+							<span class="__txt">記事一覧へ戻る</span>
+						</a>
+					</li>
+					<li class="pager__item _next_">
+						<a href="#" class="pager__link" aria-label="Next Page">
+							<span class="__txt">次のページへ</span>
+						</a>
+					</li>
+				</ul>
+				<div class="pre">
+					<pre><code>&lt;ul class=&quot;pager&quot;&gt;
+	&lt;li class=&quot;pager__item _prev_&quot;&gt;
+		&lt;a href=&quot;#&quot; class=&quot;pager__link&quot; aria-label=&quot;Previous Page&quot;&gt;
+			&lt;span class=&quot;__txt&quot;&gt;前のページへ&lt;/span&gt;
+		&lt;/a&gt;
+	&lt;/li&gt;
+	&lt;li class=&quot;pager__item _list_&quot;&gt;
+		&lt;a href=&quot;#&quot; class=&quot;pager__link&quot;&gt;
+			&lt;span class=&quot;__txt&quot;&gt;記事一覧へ戻る&lt;/span&gt;
+		&lt;/a&gt;
+	&lt;/li&gt;
+	&lt;li class=&quot;pager__item _next_&quot;&gt;
+		&lt;a href=&quot;#&quot; class=&quot;pager__link&quot; aria-label=&quot;Next Page&quot;&gt;
+			&lt;span class=&quot;__txt&quot;&gt;次のページへ&lt;/span&gt;
+		&lt;/a&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+				</div>
+
+
+				</div>
+			</div>
+			<!-- /.contents -->
+
+			<!--============================================== footer -->
+			<!--#include virtual="/jrqc/common/inc/footer.html" -->
+			<!--============================================== /footer -->
+		</div>
+
+		<!--============================================== html_foot -->
+		<!--#include virtual="/jrqc/common/inc/html_foot.html" -->
+		<!--============================================== /html_foot -->
+	</body>
+</html>

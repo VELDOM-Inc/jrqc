@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* ============================================================ */
+/* .index-visual */
+/* ============================================================ */
+.index-visual {
+	width: 100%;
+	height: 800px;
+	position: relative;
+	margin: 0 0 125px;
+	overflow: hidden;
+}
+
+.index-visual__inner {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	z-index: 2;
+	text-align: center;
+	width: 100%;
+}
+
+.index-visual__inner .__txt {
+	font-size: 6.6rem;
+	line-height: 1.4;
+	color: var(--white);
+	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+}
+
+.index-visual-slider {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+}
+
+.index-visual-slider__item {
+	position: relative;
+}
+
+.index-visual-slider__caption {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	z-index: 3;
+}
+
+.index-visual-slider__caption .__txt {
+	background: rgba(0, 0, 0, 0.6);
+	color: var(--white);
+	padding: 10px;
+}
+
+.index-visual-slider__img {
+	width: 100%;
+	height: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.index-visual-slider__img .__elem {
+	width: 100%;
+	height: 800px;
+	object-fit: cover;
+}
+
+/* ============================================================ */
+/* .index-ttl */
+/* ============================================================ */
+.index-ttl {
+	color: var(--red);
+	font-size: 7.7rem;
+	line-height: 1.0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1222px) {
+	.index-ttl {
+		font-size: 6.6rem;
+	}
+}
+
+.index-ttl .__br {
+	display: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1070px) {
+	.index-ttl .__br {
+		display: block;
+	}
+}
+
+/* ============================================================ */
+/* .index-box */
+/* ============================================================ */
+.index-box {
+	position: relative;
+}
+
+.index-box._about_ {
+	margin: 0 0 325px;
+}
+
+.index-box._recruit_ {
+	margin: 0 0 282px;
+}
+
+.index-box-bg::before {
+	position: absolute;
+	bottom: -115px;
+	left: 0;
+	width: 100%;
+	height: 430px;
+	background: #f4f4f4;
+	content: "";
+	z-index: 1;
+}
+
+.index-box-wrapper {
+	max-width: 1318px;
+	margin: 0 auto;
+	padding: 0 30px;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	z-index: 2;
+}
+
+.index-box-wrapper__img {
+	width: calc(100% - 52.86%);
+	height: 485px;
+	position: relative;
+}
+
+.index-box-wrapper__img .__elem {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1000px;
+	height: 485px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.index-box-wrapper__img .__elem .lazyload {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.index-box-wrapper__txt {
+	width: 52.86%;
+	position: relative;
+	padding: 0 30px 30px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+
+.index-box-wrapper__btn {
+	position: absolute;
+	bottom: 40px;
+	right: -40px;
+}
+
+/* ============================================================ */
+/* .index-business */
+/* ============================================================ */
+.index-business {
+	margin: 0 0 125px;
+}
+
+.index-business .business-bnr {
+	margin: 0;
+}
+
+.index-business .index-ttl {
+	text-align: center;
+	margin: 0 0 65px;
+}
+
+/* ============================================================ */
+/* .index-news */
+/* ============================================================ */
+.index-news {
+	max-width: 1318px;
+	margin: 0 auto 330px;
+	padding: 0 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.index-news__list {
+	width: 49.68%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+	.index-news__list {
+		width: 65%;
+	}
+}
+
+.index-news__item {
+	border-bottom: 1px solid var(--black-text);
+	padding: 15px;
+	display: flex;
+	align-items: flex-start;
+}
+
+.index-news__date {
+	color: var(--red);
+	font-size: 2.4rem;
+	line-height: 1.2;
+	margin: 0 30px 0 0;
+}
+
+

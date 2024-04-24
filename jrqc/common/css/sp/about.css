@@ -1,0 +1,269 @@
+@charset "utf-8";
+/* ============================================================ */
+/* .about-box */
+/* ============================================================ */
+.about-box {
+	padding-top: 57px;
+}
+
+.about-box__inner {
+	margin-top: -57px;
+	padding-top: 57px;
+}
+
+/* ============================================================ */
+/* .about-ideal */
+/* ============================================================ */
+.about-ideal {
+	margin: 18px 0 0;
+}
+
+.about-ideal__txt {
+	margin: 0 0 45px;
+}
+
+.about-ideal__img {
+}
+
+/* ============================================================ */
+/* .about-greeting */
+/* ============================================================ */
+.about-greeting {
+	margin: 115px 0 0;
+}
+
+.about-greeting__inner {
+	display: flex;
+	flex-direction: column;
+	margin: 0 10px;
+}
+
+.about-greeting__img {
+	max-width: 269px;
+	margin: 0 auto;
+}
+
+.about-greeting__img .__txt {
+	text-align: center;
+	margin: 15px 0 0;
+}
+
+.about-greeting__txt {
+	margin: 0 0 40px;
+}
+
+/* ============================================================ */
+/* .about-outline */
+/* ============================================================ */
+.about-outline {
+	margin-top: 28px;
+}
+
+.about-outline .table {
+	margin: 0 0 25px;
+}
+
+.about-outline .table ._justify_ {
+	width: 27%;
+}
+
+.about-outline .table ._border-left_ {
+	width: 73%;
+}
+
+
+/* ============================================================ */
+/* .about-office */
+/* ============================================================ */
+.about-office {
+	margin-top: 3px;
+	margin-bottom: 50px;
+}
+
+.about-office-map {
+	width: 100%;
+}
+
+.about-office-map__address {
+	margin: 0 0 5px;
+}
+
+.about-office-map__btn {
+	text-align: right;
+	margin: 0 0 5px;
+}
+
+.about-office .table {
+	border-bottom: 1px solid var(--black-text);
+}
+
+.about-office .table ._justify_ {
+	line-height: 1.9;
+	display: block;
+	width: 40%;
+	border-top: none;
+}
+
+.about-office .table tr {
+	border-top: 1px solid var(--black-text);
+}
+
+.about-office .table ._border-left_ {
+	padding-top: 0;
+}
+
+.about-office .table ._border-left_::before {
+	display: none;
+}
+
+/* ============================================================ */
+/* .qualified-info */
+/* ============================================================ */
+.qualified-info {
+	margin-top: 18px;
+}
+
+.qualified-info-table {
+}
+
+.qualified-info-table__item {
+}
+
+.qualified-info-table__item .table {
+}
+
+.qualified-info-table__item .table tr:last-child th ,
+.qualified-info-table__item .table tr:last-child td {
+	border-bottom: none;
+}
+
+.qualified-info-table__item:last-child .table tr:last-child th ,
+.qualified-info-table__item:last-child .table tr:last-child td {
+	border-bottom: 1px solid var(--black-text);
+}
+
+.qualified-info-table__item .table th {
+	width: calc(100% - 110px);
+	font-weight: 400;
+}
+
+.qualified-info-table__item .table td {
+	border-left: 1px solid var(--black-text);
+	width: 110px;
+	padding-right: 30px;
+	padding-left: 30px;
+	text-align: right;
+}
+
+.qualified-info-table__item .table ._indent_ {
+	margin: 0 0 0 32px;
+}
+
+/* ============================================================ */
+/* .qualified-award */
+/* ============================================================ */
+.qualified-award {
+	margin-top: 33px;
+}
+
+.qualified-award .table {
+	min-width: 923px;
+}
+
+.qualified-award ._awards_ .table {
+	min-width: 985px;
+}
+
+.qualified-award .table ._year_ {
+	width: 7%;
+}
+
+.qualified-award .table ._name_ {
+	width: 43%;
+}
+
+.qualified-award ._awards_ .table ._name_ {
+	width: 59%;
+}
+
+.qualified-award .table ._person_ {
+	width: 50%;
+}
+
+.qualified-award ._awards_ .table ._person_ {
+	width: 38%;
+}
+
+.qualified-award-letters {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 15px;
+}
+
+.qualified-award-img {
+	display: flex;
+	justify-content: center;
+}
+
+.qualified-award-img__item {
+}
+
+/* ============================================================ */
+/* .qualified-welfare */
+/* ============================================================ */
+.qualified-welfare {
+	margin: 43px 0 45px;
+}
+
+.qualified-welfare-block {
+	margin: 0 10px 65px;
+}
+
+.qualified-welfare-block .box {
+	margin-right: -10px;
+	margin-left: -5px;
+}
+
+.qualified-welfare .table {
+	margin-right: -10px;
+	margin-left: -10px;
+}
+
+.qualified-welfare-img {
+	margin: 25px -10px 0;
+}
+
+.qualified-welfare-img__item {
+	margin: 0 0 20px;
+}
+
+.qualified-welfare-img .__elem {
+	margin: 0 0 5px;
+}
+
+.qualified-welfare-img .__txt {
+	margin: 0 10px;
+}
+
+.qualified-welfare-community {
+}
+
+.qualified-welfare-community__txt {
+	margin: 0 0 30px;
+}
+
+.qualified-welfare-community__txt .list {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.qualified-welfare-community__img {
+}
+
+.qualified-welfare-community__img .__elem {
+	margin: 0 0 5px;
+}
+
+.qualified-welfare-community__img .__txt {
+	margin: 0 10px;
+}

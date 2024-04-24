@@ -1,0 +1,772 @@
+@charset "utf-8";
+/* ============================================================ */
+/* business */
+/* ============================================================ */
+.table._business_ ._border-left_ {
+	padding-left: 15px !important;
+}
+
+/* ============================================================ */
+/* road */
+/* ============================================================ */
+
+/*  .road-bridge
+----------------------------------------------------------- */
+.road-bridge .column3 {
+	margin: 0 -15px;
+}
+
+/*  .road-waterway
+----------------------------------------------------------- */
+.road-waterway {
+	margin: 0 0 130px;
+}
+
+.road-waterway__inner {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 0 80px;
+}
+
+.road-waterway__txt {
+	width: calc((100% - 51.11%) - 45px);
+}
+
+.road-waterway__img {
+	width: 51.11%;
+}
+
+/*  .road-earthquakes
+----------------------------------------------------------- */
+.road-earthquakes {
+	margin: 0 0 120px;
+}
+
+/*  .road-other 
+----------------------------------------------------------- */
+.road-other {
+	margin: 0 0 150px;
+}
+
+/* ============================================================ */
+/* railways */
+/* ============================================================ */
+
+/*  .railways-train
+----------------------------------------------------------- */
+.railways-train {
+	margin: 0 0 195px;
+}
+
+.railways-train .column2 {
+	margin: 0 -15px;
+}
+
+/*  .railways-elevated
+----------------------------------------------------------- */
+.railways-elevated {
+	margin: 0 0 160px;
+}
+
+.railways-elevated .column3 {
+	margin: 0 -15px;
+}
+
+/*  .railways-bridge
+----------------------------------------------------------- */
+.railways-bridge {
+	margin: 0 0 165px;
+}
+
+.railways-bridge .column3 {
+	margin: 0 -15px;
+}
+
+/*  .railways-level
+----------------------------------------------------------- */
+.railways-level {
+	margin: 0 0 185px;
+}
+
+.railways-level .column2 {
+	margin: 0 -15px;
+}
+
+/*  .railways-railroad
+----------------------------------------------------------- */
+.railways-railroad {
+	margin: 0 0 130px;
+}
+
+.railways-railroad__txt {
+	margin: 0 0 150px;
+}
+
+/* ============================================================ */
+/* urban */
+/* ============================================================ */
+
+/*  .urban-block
+----------------------------------------------------------- */
+.urban-block {
+	margin: 0 0 185px;
+}
+
+/*  .urban-station
+----------------------------------------------------------- */
+.urban-station {
+	margin: 0 0 175px;
+}
+
+.urban-station-block {
+	margin: 0 5px 120px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.urban-station-block:last-child {
+	margin: 0 5px;
+}
+
+.urban-station-block__txt {
+	margin: 0 75px 0 0;
+	width: calc(100% - 65.18%);
+}
+
+.urban-station-block__img {
+	width: 65.18%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 40px;
+}
+
+.urban-station-block02 {
+	margin: 0 -15px 120px;
+}
+
+/*  .urban-results
+----------------------------------------------------------- */
+.urban-results {
+	margin: 0 0 160px;
+}
+
+
+/* ============================================================ */
+/* surveying */
+/* ============================================================ */
+
+/*  .surveying-ippan
+----------------------------------------------------------- */
+.surveying-ippan {
+	margin: 0 0 65px;
+}
+
+.surveying-ippan-block {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 0 125px;
+}
+
+.surveying-ippan-block:last-child {
+	margin: 0;
+}
+
+.surveying-ippan-block__txt {
+	margin: 0 40px 0 0;
+	width: calc(100% - 45.95%);
+}
+
+.surveying-ippan-block__img {
+	width: 45.95%;
+}
+
+/*  .surveying-ippan__3d
+----------------------------------------------------------- */
+.surveying-ippan__3d {
+	margin: 0 5px 195px;
+}
+
+.surveying-ippan__3d .h5 {
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+/*  .surveying-ippan__disaster
+----------------------------------------------------------- */
+.surveying-ippan__disaster {
+	margin: 0 5px;
+}
+
+.surveying-ippan__disaster .h5 {
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+/*  .surveying-geological
+----------------------------------------------------------- */
+.surveying-geological {
+	margin: 0 0 200px;
+}
+
+/*  .surveying-results
+----------------------------------------------------------- */
+.surveying-results {
+	margin: 0 0 195px;
+}
+
+/* ============================================================ */
+/* structural */
+/* ============================================================ */
+
+/*  .structural-survey
+----------------------------------------------------------- */
+.structural-survey {
+	margin: 0 0 110px;
+}
+
+.structural-survey .__col {
+	margin-bottom: 50px;
+}
+
+/*  .structural-inspection
+----------------------------------------------------------- */
+.structural-inspection {
+	margin: 0 0 170px;
+}
+
+/*  .structural-results
+----------------------------------------------------------- */
+.structural-results {
+	margin: 0 0 205px;
+}
+
+/*  .structural-disaster
+----------------------------------------------------------- */
+.structural-disaster {
+	margin: 0 0 180px;
+}
+
+.structural-disaster-block {
+	display: flex;
+	justify-content: space-between;
+}
+
+.structural-disaster-block__txt {
+	margin: 0 20px 0 0;
+	width: calc(100% - 24.96%);
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.structural-disaster-block__img {
+	width: 24.96%;
+}
+
+/* ============================================================ */
+/* construction */
+/* ============================================================ */
+
+/*  .construction-control
+----------------------------------------------------------- */
+.construction-control {
+	margin: 0 5px 135px;
+}
+
+.construction-control .h2 {
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+/*  .construction-estimate
+----------------------------------------------------------- */
+.construction-estimate {
+	margin: 0 0 80px;
+}
+
+.construction-estimate-block {
+	display: flex;
+	justify-content: space-between;
+}
+
+.construction-estimate-block__txt {
+	margin: 0 40px 0 0;
+	width: calc(100% - 46.26%);
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.construction-estimate-block__img {
+	width: 46.26%;
+}
+
+/*  .construction-property
+----------------------------------------------------------- */
+.construction-property {
+	margin: 0 0 185px;
+}
+
+/*  .construction-results
+----------------------------------------------------------- */
+.construction-results {
+	margin: 0 0 190px;
+}
+
+/* ============================================================ */
+/* icm */
+/* ============================================================ */
+
+/*  .icm-section
+----------------------------------------------------------- */
+.icm-section {
+	margin: 0 0 145px;
+}
+
+.icm-section-block {
+	margin: 0 0 140px;
+}
+
+.icm-section-block:last-child {
+	margin: 0;
+}
+
+.icm-section-block._rainfall_ {
+	margin: 0 0 100px;
+}
+
+.icm-section-block__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.icm-section-block__img {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.icm-section-block__inner._map_ .icm-section-block__img {
+	width: 20.59%;
+}
+
+.icm-section-block__img .__inner {
+	width: auto;
+}
+
+.icm-section-block__txt {
+	margin: 0 30px 0 0;
+	width: calc(100% - 50%);
+}
+
+.icm-section-block__inner._map_ .icm-section-block__txt {
+	width: calc(100% - 20.59%);
+	margin: 0 40px 0 0;
+}
+
+.icm-section-block__position {
+	display: flex;
+}
+
+.icm-section-block__position .__item {
+	margin: 0 20px;
+}
+
+/*  .bim-section
+----------------------------------------------------------- */
+.bim-section {
+	margin: 0 0 155px;
+}
+
+.bim-section-block {
+	margin: 0 0 90px;
+}
+
+.bim-section-block._xr_ {
+	margin: 0 0 130px;
+}
+
+.bim-section-block__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.bim-section-block__img {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.bim-section-block__position {
+	display: flex;
+}
+
+.bim-section-block__position .__item {
+	margin: 0 15px;
+}
+
+/* ============================================================ */
+/* estate */
+/* ============================================================ */
+
+/*  .estate-rental
+----------------------------------------------------------- */
+.estate-rental {
+	margin: 0 0 160px;
+}
+
+.estate-rental__inner {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 5px 40px;
+}
+
+.estate-rental__bnr {
+	width: 50.08%;
+}
+
+.estate-rental__table {
+	margin: 0 0 0 60px;
+	width: calc(100% - 50.08%);
+}
+
+.estate-rental .column3 {
+	margin: 0 -15px;
+}
+
+/*  .estate-loan
+----------------------------------------------------------- */
+.estate-loan {
+	margin: 0 0 170px;
+}
+
+/*  .estate__inner
+----------------------------------------------------------- */
+.estate__inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.estate__img {
+	width: 46.26%;
+}
+
+.estate__txt {
+	margin: 0 45px 0 0;
+	width: calc(100% - 46.26%);
+}
+
+/*  .estate-tenant
+----------------------------------------------------------- */
+.estate-tenant {
+	margin: 0 0 160px;
+}
+
+.estate-tenant__block {
+	margin: 130px 0 0;
+}
+
+/*  .estate-maintenance
+----------------------------------------------------------- */
+.estate-maintenance {
+	margin: 0 0 230px;
+}
+
+/* ============================================================ */
+/* architectural */
+/* ============================================================ */
+
+/*  .architectural-tab
+----------------------------------------------------------- */
+.architectural-tab {
+	margin: 0 0 140px;
+}
+
+.architectural-tab__inner {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 -20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1095px) {
+	.architectural-tab__inner {
+		margin: 0 -10px;
+	}
+}
+
+.architectural-tab__item {
+	width: calc((100% - 160px) / 4);
+	margin: 0 20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1095px) {
+	.architectural-tab__item {
+		width: calc((100% - 80px) / 4);
+		margin: 0 10px;
+	}
+}
+
+.architectural-tab__link {
+	border-bottom: 4px solid #d6d6d6;
+	padding: 0 0 10px;
+	width: 100%;
+	display: block;
+	color: var(--black-text);
+	position: relative;
+	font-size: 2.4rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1095px) {
+	.architectural-tab__link {
+		font-size: 1.6rem;
+	}
+}
+
+.architectural-tab__link::after {
+	position: absolute;
+	bottom: -4px;
+	left: 0;
+	width: 10px;
+	height: 4px;
+	background: var(--red);
+	content: "";
+	transition: .5s all;
+}
+
+.architectural-tab__link.active::after ,
+.architectural-tab__link:hover::after {
+	width: 100%;
+}
+
+/*  .architectural-block
+----------------------------------------------------------- */
+.architectural-block {
+	margin-bottom: 280px;
+	/*padding-top: 135px;*/
+}
+
+.architectural-block._facilities_ {
+	margin-bottom: 160px;
+}
+
+.architectural-block._commercial_ {
+	margin-bottom: 170px;
+}
+
+/*  .architectural-example
+----------------------------------------------------------- */
+.architectural-example {
+	/*margin: -135px 0 190px;
+	padding: 135px 0 0;*/
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+	height: 100% !important;
+	/*height: 735px;
+  height: 100vh;*/
+	margin-bottom: 190px;
+}
+
+.architectural-example._facilities_ {
+	margin-bottom: 120px;
+}
+
+.architectural-example._index_ ,
+.architectural-example._office_ {
+	margin-bottom: 135px;
+}
+
+.architectural-example:last-child {
+	margin-bottom: 0;
+}
+
+.architectural-example-detail {
+	margin: 0 0 0 25px;
+	padding: 0 15px 0 0;
+	width: calc(100% - 64.71%);
+	order: 2;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+	.architectural-example-detail {
+		width: calc(100% - 55%);
+	}
+}
+
+.architectural-example-detail__top .__txt {
+	margin: 0 0 30px;
+	font-size: 1.7rem;
+}
+
+.architectural-example-detail__bottom .table {
+	border-right: none;
+	border-left: none;
+}
+
+.architectural-example-detail__bottom .table td {
+	padding: 3px 15px;
+}
+
+.architectural-example-detail__bottom .table th {
+	padding: 3px 15px 3px 0;
+	font-weight: 400;
+}
+
+.architectural-example-img {
+	width: 64.71%;
+	order: 1;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+	.architectural-example-img {
+		width: 55%;
+	}
+}
+
+.architectural-example-slider {
+	width: 100%;
+	height: 567px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+	.architectural-example-slider {
+		height: 400px;
+	}
+}
+
+.architectural-example-slider__item {
+	width: 100%;
+	height: 567px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all .4s;
+	position: relative;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+	.architectural-example-slider__item {
+		height: 400px;
+	}
+}
+
+.architectural-example-slider__item .__elem {
+	width: 100%;
+	height: 567px;
+	object-fit: cover;
+	position: relative;
+	z-index: 1;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+	.architectural-example-slider__item .__elem {
+		height: 400px;
+	}
+}
+
+.architectural-example-slider__item .__caption {
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+	z-index: 2;
+	background: var(--white);
+	padding: 5px 10px;
+}
+
+.architectural-example-nav {
+	margin: 20px 0 0;
+	display: flex !important;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 100%;
+}
+
+.architectural-example-nav .slick-list {
+	padding: 0 !important;
+	margin: 0 -10px;
+	width: calc(100% + 20px);
+}
+
+.architectural-example-nav .slick-track {
+	width: 100% !important;
+	position: relative;
+	transform: translate3d(0px, 0px, 0px) !important;
+}
+
+.architectural-example-nav__item {
+	width: calc((100% - 80px) / 4) !important;
+	height: 131px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 10px;
+	opacity: 0.6;
+	transition: all .4s;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+	.architectural-example-nav__item {
+		height: 100px;
+	}
+}
+
+.architectural-example-nav__item .__elem {
+	width: 100%;
+	height: 131px;
+	object-fit: cover;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+	.architectural-example-nav__item .__elem {
+		height: 100px;
+	}
+}
+
+.architectural-example-nav__item.slick-current {
+	opacity: 1;
+}
+
+/*  facilities
+----------------------------------------------------------- */
+.facilities-inner {
+	margin: 0 0 50px;
+}
+
+.facilities-results {
+	margin: 0 0 160px;
+}
+
+.facilities-results th ,
+.facilities-results td {
+	padding-right: 40px !important;
+	padding-left: 40px !important;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
+	.facilities-results th ,
+	.facilities-results td {
+		padding-right: 20px !important;
+		padding-left: 20px !important;
+	}
+}
+
+/*  office
+----------------------------------------------------------- */
+.office-inner {
+	margin: 0 0 205px;
+}
+
+/*  index
+----------------------------------------------------------- */
+.architectural-index-inner {
+	margin: 0 0 150px;
+}
+
+

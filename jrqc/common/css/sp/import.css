@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+@import url(//fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap);
+@import url("/jrqc/common/css/reset.css");
+@import url("/jrqc/common/css/icon.css");
+@import url("/jrqc/common/css/sp/common.css");
+@import url("/jrqc/common/css/pc/general.css");
+@import url("/jrqc/common/css/sp/header.css");
+@import url("/jrqc/common/css/sp/footer.css");
+@import url("/jrqc/common/css/sp/contents.css");
+@import url("/jrqc/common/css/sp/about.css");
+@import url("/jrqc/common/css/sp/contact.css");
+@import url("/jrqc/common/css/sp/index.css");
+@import url("/jrqc/common/css/sp/business.css");

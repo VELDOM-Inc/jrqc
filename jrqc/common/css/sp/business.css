@@ -1,0 +1,440 @@
+@charset "utf-8";
+/* ============================================================ */
+/* road */
+/* ============================================================ */
+
+/*  .road-bridge
+----------------------------------------------------------- */
+.road-bridge {
+	margin-bottom: 120px !important;
+}
+
+.road-bridge .column3 {
+	margin-bottom: 110px !important;
+}
+
+.road-bridge .table {
+	min-width: 1238px;
+}
+
+/*  .road-waterway
+----------------------------------------------------------- */
+.road-waterway {
+	margin: 0 0 90px;
+}
+
+.road-waterway__inner {
+	margin: 0 0 115px;
+}
+
+.road-waterway__txt {
+	margin: 0 0 60px;
+}
+
+.road-waterway__img {
+}
+
+.road-waterway .table {
+	min-width: 1138px;
+}
+
+/*  .road-earthquakes
+----------------------------------------------------------- */
+.road-earthquakes {
+	margin: 0 0 95px;
+}
+
+.road-earthquakes .table {
+	min-width: 1138px;
+}
+
+/*  .road-other 
+----------------------------------------------------------- */
+.road-other {
+	margin: 0 0 65px;
+}
+
+/* ============================================================ */
+/* railways */
+/* ============================================================ */
+
+/*  .railways-train
+----------------------------------------------------------- */
+.railways-train {
+	margin: 0 0 110px;
+}
+
+.railways-train .column2 .__col {
+	margin: 0 0 30px;
+}
+
+.railways-train .column2 .__col:last-child {
+	margin: 0;
+}
+
+/*  .railways-elevated
+----------------------------------------------------------- */
+.railways-elevated {
+	margin: 0 0 140px;
+}
+
+.railways-elevated .column3 .__col {
+	margin: 0 0 30px;
+}
+
+.railways-elevated .column3 .__col:last-child {
+	margin: 0;
+}
+
+/*  .railways-bridge
+----------------------------------------------------------- */
+.railways-bridge {
+	margin: 0 0 130px;
+}
+
+.railways-bridge .column3 .__col {
+	margin: 0 0 30px;
+}
+
+.railways-bridge .column3 .__col:last-child {
+	margin: 0;
+}
+
+/*  .railways-level
+----------------------------------------------------------- */
+.railways-level {
+	margin: 0 0 95px;
+}
+
+.railways-level .column2 .__col {
+	margin: 0 0 30px;
+}
+
+.railways-level .column2 .__col:last-child {
+	margin: 0;
+}
+
+/*  .railways-railroad
+----------------------------------------------------------- */
+.railways-railroad {
+	margin: 0 0 160px;
+}
+
+.railways-railroad__txt {
+	margin: 0 0 90px;
+}
+
+.railways-railroad .table {
+	min-width: 1118px;
+}
+
+/* ============================================================ */
+/* urban */
+/* ============================================================ */
+
+/*  .urban-block
+----------------------------------------------------------- */
+.urban-block {
+	margin: 0 0 110px;
+}
+
+/*  .urban-station
+----------------------------------------------------------- */
+.urban-station {
+	margin: 0 0 75px;
+}
+
+.urban-station-block02 {
+	margin: 0 0 85px;
+}
+
+.urban-station-block__txt {
+	margin: 0 0 25px;
+}
+
+.urban-station-block__img {
+}
+
+.urban-station-block__item {
+	margin: 0 0 25px;
+}
+
+.urban-station-block__item:last-child {
+	margin: 0;
+}
+
+/*  .urban-results
+----------------------------------------------------------- */
+.urban-results {
+	margin: 0 0 150px;
+}
+
+.urban-results .table {
+	min-width: 1018px;
+}
+
+/* ============================================================ */
+/* surveying */
+/* ============================================================ */
+
+/*  .surveying-ippan
+----------------------------------------------------------- */
+.surveying-ippan {
+	margin: 0 0 165px;
+}
+
+.surveying-ippan-block {
+	margin: 0 0 75px;
+}
+
+.surveying-ippan-block:last-child {
+	margin: 0;
+}
+
+.surveying-ippan-block__txt {
+	margin: 0 10px 55px;
+}
+
+/*  .surveying-ippan__3d
+----------------------------------------------------------- */
+.surveying-ippan__3d {
+	margin: 0 0 100px;
+}
+
+.surveying-ippan__3d .column .__col {
+	margin: 0 0 60px;
+}
+
+.surveying-ippan__3d .column .__col:last-child {
+	margin: 0;
+}
+
+/*  .surveying-ippan__disaster
+----------------------------------------------------------- */
+.surveying-ippan__disaster .surveying-ippan-block__txt {
+	margin: 0 10px 35px;
+}
+
+/*  .surveying-geological
+----------------------------------------------------------- */
+.surveying-geological {
+	margin: 0 0 215px;
+}
+
+/*  .surveying-results
+----------------------------------------------------------- */
+.surveying-results {
+	margin: 115px 0 110px;
+}
+
+.surveying-results .table {
+	min-width: 898px;
+}
+
+/* ============================================================ */
+/* structural */
+/* ============================================================ */
+
+/*  .structural-survey
+----------------------------------------------------------- */
+.structural-survey {
+	margin: 0 0 110px;
+}
+
+.structural-survey .__col {
+	margin-bottom: 60px;
+}
+
+.structural-survey .__col:last-child {
+	margin-bottom: 0;
+}
+
+/*  .structural-inspection
+----------------------------------------------------------- */
+.structural-inspection {
+	margin: 0 0 95px;
+}
+
+.structural-inspection .__col {
+	margin-bottom: 30px;
+}
+
+.structural-inspection .__col:last-child {
+	margin-bottom: 0;
+}
+
+/*  .structural-disaster
+----------------------------------------------------------- */
+.structural-disaster {
+	margin: 0 0 120px;
+}
+
+.structural-disaster-block {
+}
+
+.structural-disaster-block__txt {
+	margin: 0 10px 35px;
+}
+
+/*  .structural-results
+----------------------------------------------------------- */
+.structural-results {
+	margin: 0 0 150px;
+}
+
+.structural-results .table {
+	min-width: 1018px;
+}
+
+
+/* ============================================================ */
+/* icm */
+/* ============================================================ */
+
+/*  .icm-section
+----------------------------------------------------------- */
+.icm-section {
+	margin: 0 0 175px;
+}
+
+.icm-section-block {
+	margin: 0 0 115px;
+}
+
+.icm-section-block:last-child {
+	margin: 0;
+}
+
+.icm-section-block._rainfall_ {
+	margin: 0 0 100px;
+}
+
+.icm-section-block__inner {
+}
+
+.icm-section-block__img {
+}
+
+.icm-section-block__inner._map_ .icm-section-block__img {
+	width: 65%;
+	margin: 0 auto;
+}
+
+.icm-section-block__img .__inner {
+	width: auto;
+}
+
+.icm-section-block__txt {
+	margin: 0 10px 40px;
+}
+
+.icm-section-block__position {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 -6px;
+}
+
+.icm-section-block__position .__item {
+	width: calc((100% - 24px) / 2);
+	margin: 0 6px;
+}
+
+.icm-section-block._rainfall_ .__col {
+	margin: 0 0 30px;
+}
+
+.icm-section-block._rainfall_ .__col:last-child {
+	margin: 0;
+}
+
+/*  .bim-section
+----------------------------------------------------------- */
+.bim-section {
+	margin: 0 0 90px;
+}
+
+.bim-section-block {
+	margin: 0 0 50px;
+}
+
+.bim-section-block .h3 {
+	font-size: 2.0rem;
+	margin: 0 0 10px;
+}
+
+.bim-section-block .column .__col {
+	margin: 0 0 30px;
+}
+
+.bim-section-block .column .__col:last-child {
+	margin: 0;
+}
+
+.bim-section-block__inner {
+}
+
+.bim-section-block__txt {
+	margin: 0 0 50px;
+}
+
+.bim-section-block__position {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 -11px;
+}
+
+.bim-section-block__position .__item {
+	margin: 0 11px;
+}
+
+/* ============================================================ */
+/* construction */
+/* ============================================================ */
+
+/*  .construction-control
+----------------------------------------------------------- */
+.construction-control {
+	margin: 0 0 105px;
+}
+
+.construction-control .column .__col {
+	margin: 0 0 60px;
+}
+
+.construction-control .column .__col:last-child {
+	margin: 0;
+}
+
+/*  .construction-estimate
+----------------------------------------------------------- */
+.construction-estimate {
+	margin: 0 0 105px;
+}
+
+.construction-estimate-block {
+}
+
+.construction-estimate-block__txt {
+	margin: 0 10px 40px;
+}
+
+/*  .construction-property
+----------------------------------------------------------- */
+.construction-property {
+	margin: 0 0 140px;
+}
+
+/*  .construction-results
+----------------------------------------------------------- */
+.construction-results {
+	margin: 0 0 120px;
+}
+
+.construction-results .table {
+	min-width: 1058px;
+}
+
+
+
+

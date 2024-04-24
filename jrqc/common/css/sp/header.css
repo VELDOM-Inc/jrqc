@@ -1,0 +1,239 @@
+@charset "utf-8";
+
+/* ============================================================ */
+/* header */
+/* ============================================================ */
+.header {
+	width: 100%;
+	height: 57px;
+	transition: all .3s;
+	background: var(--white);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+
+/*.header.is-animation ,
+.index .header.is-animation {
+	border-bottom: 1px solid var(--line-gray);
+	background: var(--white);
+}
+
+.index .header {
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+	background: none;
+}*/
+
+.noscript {
+	padding: 5px 15px;
+	background: var(--bg-gray);
+	color: var(--black-text);
+	text-align: center;
+	font-size: 1.4rem;
+}
+
+/*.index .noscript {
+	border-bottom: none;
+	background: none !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+	color: var(--white);
+}*/
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	height: 57px;
+}
+
+.header-logo {
+	width: 288px;
+	margin: 0 0 0 10px;
+}
+
+.header-logo__link {
+	display: block;
+}
+
+/* .header-menu
+------------------------------------------------------------ */
+.header-menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	width: 57px;
+	height: 57px;
+	z-index: 10;
+	position: relative;
+	background: #808080;
+}
+
+.header-menu .__txt {
+	line-height: 1.0;
+	font-size: 1.2rem;
+}
+
+.header-menu._active_ .__txt {
+	display: none;
+}
+
+.header-menu__inner {
+	position: relative;
+	width: 45px;
+	height: 20px;
+}
+
+.header-menu._active_ .header-menu__inner {
+	margin: 0;
+}
+
+.header-menu__item {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: var(--white);
+	transition: all 0.3s ease;
+}
+
+.header-menu__item:nth-of-type(1) { top: 0; }
+.header-menu__item:nth-of-type(2) { top: 9px; }
+.header-menu__item:nth-of-type(3) { bottom: 0; }
+
+.header-menu._active_ .header-menu__item:nth-of-type(1) { transform: translateY(9px) rotate(-315deg); background: var(--white); }
+.header-menu._active_ .header-menu__item:nth-of-type(2) { opacity: 0; background: var(--white); }
+.header-menu._active_ .header-menu__item:nth-of-type(3) { transform: translateY(-9px) rotate(315deg); background: var(--white); } 
+
+.header-nav {
+	position: fixed;
+	left: 0;
+	top: 57px;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	padding: 35px 15px 85px;
+	opacity: 0;
+	overflow-y: auto;
+	overscroll-behavior-y: contain;
+	pointer-events: none;
+	transition: all 0.3s ease;
+	background: var(--white);
+	display: inline-flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+._gnav-show_ .header-nav {
+	z-index: 1;
+	opacity: 1;
+	pointer-events: auto;
+}
+
+
+/* .gnav
+------------------------------------------------------------ */
+.gnav {
+	border-top: 1px solid var(--black-text);
+	margin: 0 0 55px;
+}
+
+.gnav__item {
+	font-size: 2.0rem;
+	border-bottom: 1px solid var(--black-text);
+}
+
+.gnav__link {
+	color: var(--black-text);
+	font-weight: 500;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	line-height: 1.0;
+}
+
+.gnav__link .__txt {
+	border-bottom: none;
+}
+
+.gnav__link .__ico {
+	font-size: 1.8rem;
+	font-weight: 900;
+	line-height: 1.0;
+}
+
+.gnav-sub {
+	display: none;
+}
+
+.gnav-sub__inner {
+	display: flex;
+	border-top: 1px solid var(--black-text);
+	padding: 15px 0 25px;
+}
+
+.gnav-sub__left ,
+.gnav-sub__right {
+	width: 50%;
+}
+
+.gnav-sub__item {
+	font-size: 1.5rem;
+	padding: 0 10px;
+	margin: 0 0 5px;
+}
+
+.gnav-sub__item:last-child {
+}
+
+.gnav-sub__link {
+	color: var(--black-text);
+	display: flex;
+	justify-content: flex-start;
+}
+
+.gnav-sub__link .__txt {
+	border-bottom: none;
+}
+
+.gnav-sub__link .__ico {
+	margin: 4px 0 0;
+}
+
+.gnav__item.active .gnav__link .__ico {
+	transform: rotate(180deg);
+}
+
+.gnav-sub__link .__space {
+	letter-spacing: -0.45rem;
+}
+
+/* .gnav-contact
+------------------------------------------------------------ */
+.gnav-contact {
+}
+
+.gnav-contact__link {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	background: var(--black-text);
+	color: var(--white);
+	width: 100%;
+	height: 36px;
+	font-size: 2.0rem;
+	line-height: 1.4;
+}
+
+.gnav-contact__link .__txt {
+	border-bottom: none;
+}
