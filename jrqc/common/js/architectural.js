@@ -1,6 +1,3 @@
-
-
-
 document.querySelectorAll('.architectural-tab__link').forEach(link => {
   if(link.href === window.location.href){
     link.classList.add('active')
@@ -29,9 +26,7 @@ $('.architectural-example-img').each(function( i ) {
 });
 
 $(function() {
-
 		var current;
-		
 		$.scrollify({
 			section:'.architectural-example', //対象要素を指定
 			easing: 'swing', // イージングを指定
@@ -53,4 +48,9 @@ $(function() {
 		
 		$('.pagetop__link').on('click', $.scrollify.move);
 	
+		if (isSP()) {
+			$.scrollify({
+				offset: -57,
+			});
+		}
 });

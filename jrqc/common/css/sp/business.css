@@ -512,3 +512,243 @@
 .estate-maintenance {
 	margin: 0 0 95px;
 }
+
+/* ============================================================ */
+/* architectural */
+/* ============================================================ */
+
+/*  .architectural-tab
+----------------------------------------------------------- */
+.architectural-tab {
+	margin: 0 0 60px;
+}
+
+.architectural-tab__inner {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -5px;
+}
+
+.architectural-tab__item {
+	width: calc((100% - 20px) / 2);
+	margin: 0 5px 10px;
+}
+
+.architectural-tab__link {
+	border: 1px solid #aaa;
+	border-bottom: 5px solid #aaa;
+	padding: 7px 5px 5px;
+	width: 100%;
+	display: block;
+	color: var(--black-text);
+	position: relative;
+	font-size: 1.8rem;
+	text-align: center;
+}
+
+.architectural-tab__link .__space {
+	letter-spacing: -0.45rem;
+}
+
+.architectural-tab__link.active {
+	border-bottom: 5px solid var(--red);
+}
+
+/*  .architectural-block
+----------------------------------------------------------- */
+.architectural-block {
+	/*margin-bottom: 280px;
+	padding-top: 135px;*/
+}
+
+/*.architectural-block._facilities_ {
+	margin-bottom: 160px;
+}
+
+.architectural-block._commercial_ {
+	margin-bottom: 170px;
+}*/
+
+/*  .architectural-example
+----------------------------------------------------------- */
+.architectural-example {
+	border-bottom: 1px dashed var(--black-text);
+	padding: 0 0 40px;
+	margin: 0 0 40px;
+  /*display: flex;
+  justify-content: space-between;
+  width: 100%;
+	height: 100% !important;
+	margin-bottom: 190px;*/
+}
+
+.architectural-example:last-child {
+	border-bottom: none;
+	padding: 0;
+	margin: 0;
+}
+
+.architectural-example-detail {
+	margin: 0 10px 30px;
+}
+
+.architectural-example-detail .h3 {
+	font-size: 2.4rem;
+	margin: 0 0 15px !important;
+}
+
+.architectural-example-detail__top .__txt {
+}
+
+.architectural-example-img {
+}
+
+.architectural-example-slider {
+	width: 100%;
+	height: 276px;
+}
+
+@media only screen and (min-width: 420px) and (max-width: 768px) {
+	.architectural-example-slider {
+		height: 370px;
+	}
+}
+
+.architectural-example-slider__item {
+	width: 100%;
+	height: 276px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all .4s;
+	position: relative;
+}
+
+@media only screen and (min-width: 420px) and (max-width: 768px) {
+	.architectural-example-slider__item {
+		height: 370px;
+	}
+}
+
+.architectural-example-slider__item .__elem {
+	width: 100%;
+	height: 276px;
+	object-fit: cover;
+	position: relative;
+	z-index: 1;
+}
+
+@media only screen and (min-width: 420px) and (max-width: 768px) {
+	.architectural-example-slider__item .__elem {
+		height: 370px;
+	}
+}
+
+.architectural-example-slider__item .__caption {
+	position: absolute;
+	bottom: 7px;
+	right: 7px;
+	z-index: 2;
+	background: var(--white);
+	padding: 5px;
+	font-size: 1.2rem;
+}
+
+.architectural-example-nav {
+	margin: 10px 0 0;
+	display: flex !important;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 100%;
+}
+
+.architectural-example-nav .slick-list {
+	padding: 0 !important;
+	margin: 0 -5px;
+	width: calc(100% + 10px);
+}
+
+.architectural-example-nav .slick-track {
+	width: 100% !important;
+	position: relative;
+	transform: translate3d(0px, 0px, 0px) !important;
+}
+
+.architectural-example-nav__item {
+	width: calc((100% - 40px) / 4) !important;
+	height: 64px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5px;
+	opacity: 0.6;
+	transition: all .4s;
+}
+
+@media only screen and (min-width: 420px) and (max-width: 768px) {
+	.architectural-example-nav__item {
+		height: 85px;
+	}
+}
+
+.architectural-example-nav__item .__elem {
+	width: 100%;
+	height: 64px;
+	object-fit: cover;
+}
+
+@media only screen and (min-width: 420px) and (max-width: 768px) {
+	.architectural-example-nav__item .__elem {
+		height: 85px;
+	}
+}
+
+.architectural-example-nav__item.slick-current {
+	opacity: 1;
+}
+
+.architectural-example-table {
+	margin: 30px 0 0;
+	padding: 0 10px;
+}
+
+.architectural-example-table .table th {
+	padding: 5px 10px 5px 0;
+	font-size: 1.7rem;
+	font-weight: 400;
+}
+
+.architectural-example-table .table td {
+	padding: 5px 0 5px 10px;
+	border-left: 1px solid var(--black-text);
+	font-size: 1.7rem;
+}
+
+/*  index
+----------------------------------------------------------- */
+.architectural-index-inner {
+	margin: 0 0 55px;
+}
+
+/*  facilities
+----------------------------------------------------------- */
+.facilities-inner {
+	margin: 0 0 50px;
+}
+
+.facilities-results {
+	margin: 0 0 50px;
+}
+
+.facilities-results .table {
+	min-width: 1015px;
+}
+
+.facilities-results._index_ .table {
+	min-width: 1057px;
+}
+
+/*  office
+----------------------------------------------------------- */
+.office-inner {
+}

@@ -93,26 +93,12 @@
 	width: 100%;
 }
 
-/*.h1__inner::after {
-	content: "";
-	width: 50%;
-	height: 270px;
-	position: absolute;
-	top: 0;
-	right: 0;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 890px) {
-	.h1__inner::after {
-		width: 45%;
-	}
-}*/
-
 .h1._business_ ,
 .h1._road_ ,
 .h1._railways_ ,
 .h1._urban_ ,
-.h1._construction_ {
+.h1._construction_ ,
+.h1._architectural_ {
 	margin: 0 0 30px;
 }
 
@@ -126,10 +112,6 @@
 .h1._ict_ {
 	font-size: 1.4rem;
 }
-
-/*.h1._architectural_ {
-	margin: 0 0 50px;
-}*/
 
 .h1__ttl {
 	display: flex;
