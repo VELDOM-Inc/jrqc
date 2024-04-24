@@ -435,6 +435,80 @@
 	min-width: 1058px;
 }
 
+/* ============================================================ */
+/* estate */
+/* ============================================================ */
 
+/*  .estate-rental
+----------------------------------------------------------- */
+.estate-rental {
+	margin: 0 0 140px;
+}
 
+.estate-rental__inner {
+	margin: 0 0 70px;
+}
 
+.estate-rental__bnr {
+	margin: 0 0 40px;
+}
+
+.estate-rental__table .table {
+	border: 1px solid var(--black-text);
+}
+
+.estate-rental__table .table th {
+	border-right: 1px solid var(--black-text);
+}
+
+.estate-rental__table .table th ,
+.estate-rental__table .table td {
+	padding: 10px 15px;
+}
+
+.estate-rental .column .__col {
+	margin: 0 0 60px;
+}
+
+.estate-rental .column .__col:last-child {
+	margin: 0;
+}
+
+/*  .estate-loan
+----------------------------------------------------------- */
+.estate-loan {
+	margin: 0 0 135px;
+}
+
+/*  .estate__inner
+----------------------------------------------------------- */
+.estate__inner {
+}
+
+.estate__txt {
+	margin: 0 10px 40px;
+}
+
+/*  .estate-tenant
+----------------------------------------------------------- */
+.estate-tenant {
+	margin: 0 0 110px;
+}
+
+.estate-tenant .column .__col {
+	margin: 0 0 60px;
+}
+
+.estate-tenant .column .__col:last-child {
+	margin: 0;
+}
+
+.estate-tenant__block {
+	margin: 95px 0 0;
+}
+
+/*  .estate-maintenance
+----------------------------------------------------------- */
+.estate-maintenance {
+	margin: 0 0 95px;
+}

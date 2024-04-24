@@ -61,6 +61,7 @@
 
 .about-outline .table {
 	margin: 0 0 25px;
+	font-size: 1.6rem;
 }
 
 .about-outline .table ._justify_ {
@@ -95,6 +96,7 @@
 
 .about-office .table {
 	border-bottom: 1px solid var(--black-text);
+	font-size: 1.6rem;
 }
 
 .about-office .table ._justify_ {
@@ -168,6 +170,7 @@
 
 .qualified-award .table {
 	min-width: 923px;
+	font-size: 1.6rem;
 }
 
 .qualified-award ._awards_ .table {
@@ -227,6 +230,7 @@
 .qualified-welfare .table {
 	margin-right: -10px;
 	margin-left: -10px;
+	font-size: 1.6rem;
 }
 
 .qualified-welfare-img {
