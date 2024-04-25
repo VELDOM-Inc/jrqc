@@ -15,36 +15,18 @@
 	box-shadow: 0 0 19px 0 rgba(178,178,178,0.4);
 }
 
-/*.header.is-animation ,
-.index .header.is-animation {
-	border-bottom: 1px solid var(--line-gray);
-	background: var(--white);
-}
-
-.index .header {
-	border-bottom: 1px solid rgba(255,255,255,0.3);
-	background: none;
-}*/
-
 .noscript {
 	padding: 5px 15px;
-	background: var(--bg-gray);
-	color: var(--black-text);
+	background: var(--line-gray);
+	color: var(--white);
 	text-align: center;
 	font-size: 1.4rem;
-}
-
-/*.index .noscript {
-	border-bottom: none;
-	background: none !important;
-	position: absolute;
-	top: 0;
+	position: fixed;
 	left: 0;
+	top: 0;
+	z-index: 21;
 	width: 100%;
-	z-index: 10;
-	color: var(--white);
-}*/
-
+}
 
 .header__inner {
 	width: 100%;
@@ -109,11 +91,6 @@
 	color: var(--black-text);
 	cursor: pointer;
 	position: relative;
-	/*background: #BD4F51;
-	height: 135px;
-	display: flex;
-	justify-content: center;
-	align-items: center;*/
 }
 
 @media only screen and (min-width: 768px) and (max-width: 870px) {
@@ -182,5 +159,58 @@
 }
 
 
+/* ============================================================ */
+/* recruit専用 */
+/* ============================================================ */
+.header._recruit_ .header__inner {
+	padding: 45px 90px 45px 55px;
+}
 
+@media only screen and (min-width: 768px) and (max-width: 1290px) {
+	.header._recruit_ .header__inner {
+		padding: 45px 20px;
+	}
+}
 
+.header._recruit_ .header-logo__link {
+	display: flex;
+}
+
+.header._recruit_ .header-logo .__txt {
+	width: 105px;
+	border-bottom: none;
+	margin: 0 0 0 25px;
+	display: inline-block;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1196px) {
+	.header._recruit_ .header-logo .__txt {
+		margin: 0 0 0 10px;
+		width: 70px;
+	}
+}
+
+.header._recruit_ .gnav__item {
+	margin-left: 60px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 830px) {
+	.header._recruit_ .gnav__item {
+		margin-left: 10px;
+	}
+}
+
+.header._recruit_ .gnav-sub {
+	left: -0.625em;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1290px) {
+	.header._recruit_ .gnav-sub {
+		left: -3.125em !important;
+		width: 120px;
+	}
+}
+
+.header._recruit_ .gnav__link._entry_ {
+	color: var(--right-blue);
+}

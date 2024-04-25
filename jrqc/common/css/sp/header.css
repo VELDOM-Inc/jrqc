@@ -14,35 +14,18 @@
 	z-index: 10;
 }
 
-/*.header.is-animation ,
-.index .header.is-animation {
-	border-bottom: 1px solid var(--line-gray);
-	background: var(--white);
-}
-
-.index .header {
-	border-bottom: 1px solid rgba(255,255,255,0.3);
-	background: none;
-}*/
-
 .noscript {
 	padding: 5px 15px;
-	background: var(--bg-gray);
-	color: var(--black-text);
+	background: var(--line-gray);
+	color: var(--white);
 	text-align: center;
 	font-size: 1.4rem;
-}
-
-/*.index .noscript {
-	border-bottom: none;
-	background: none !important;
-	position: absolute;
-	top: 0;
+	position: fixed;
 	left: 0;
+	top: 57px;
+	z-index: 11;
 	width: 100%;
-	z-index: 10;
-	color: var(--white);
-}*/
+}
 
 .header__inner {
 	display: flex;

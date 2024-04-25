@@ -41,6 +41,7 @@ img {
 :root{
   --red: #ff0000;
 	--blue: #0000ff;
+	--right-blue: #0071b9;
   --white: #fff;
   --black: #000;
 	--gray: #CFCFCF;
@@ -73,7 +74,7 @@ a[href*="tel:"]:hover .__txt {
 }
 
 .textBlue .__txt {
-	border-bottom: 1px solid #0071b8;
+	border-bottom: 1px solid var(--right-blue);
 }
 
 .link-opacity {

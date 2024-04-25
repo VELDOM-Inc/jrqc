@@ -29,7 +29,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
+.icon-window2:before {
+  content: "\e905";
+}
 .icon-arrow-right:before {
   content: "\e900";
 }
