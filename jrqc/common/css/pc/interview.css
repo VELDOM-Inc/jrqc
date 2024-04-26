@@ -24,6 +24,15 @@
 	margin: 0 0 10px;
 }
 
+.interview-list__link {
+	color: var(--text-black);
+	display: block;
+}
+
+.interview-list__link .__txt {
+	border-bottom: none;
+}
+
 .interview-list__img {
 	margin: 0 0 10px;
 }
