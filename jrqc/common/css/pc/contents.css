@@ -316,6 +316,14 @@
 	background: none;
 }
 
+.h1._talk_ {
+	color: var(--light-blue);
+	font-size: 4.8rem;
+	margin: 0 0 30px;
+	background: none;
+	height: auto;
+}
+
 .h1._blue_ {
 	background: rgba(0,113,185,0.25);
 	height: 226px;
@@ -324,6 +332,7 @@
 	font-size: 4.8rem;
 }
 
+.h1._talk_::after ,
 .h1._recruit_::after ,
 .h1._blue_::after {
 	display: none;
@@ -334,11 +343,17 @@
 	align-items: center;
 }
 
+.h1._talk_ .h1__ttl {
+	height: auto;
+	align-items: center;
+}
+
 .h1._blue_ .h1__ttl {
 	height: 226px;
 	align-items: center;
 }
 
+.h1._talk_ .h1__ttl .__en ,
 .h1._recruit_ .h1__ttl .__en ,
 .h1._blue_ .h1__ttl .__en {
 	font-size: 1.8rem;
