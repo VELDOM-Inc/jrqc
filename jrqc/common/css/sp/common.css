@@ -87,6 +87,10 @@ a[href*="tel:"]:hover .__txt {
 	font-weight: 600;
 }
 
+.txt_medium {
+	font-weight: 500;
+}
+
 .txt_en {
 	font-family: Futura, "Century Gothic", sans-serif;
 }
