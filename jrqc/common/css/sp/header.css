@@ -220,3 +220,34 @@
 .gnav-contact__link .__txt {
 	border-bottom: none;
 }
+
+
+/* ============================================================ */
+/* recruit専用 */
+/* ============================================================ */
+.header._recruit_ .header-logo__link {
+	display: flex;
+}
+
+.header._recruit_ .header-logo {
+	width: 60%;
+}
+
+.header._recruit_ .header-logo .__txt {
+	width: 25%;
+	border-bottom: none;
+	margin: 0 0 0 10px;
+	display: inline-block;
+}
+
+.header._recruit_ .gnav__item {
+	border-bottom: none;
+}
+
+.header._recruit_ .gnav__link {
+	border-bottom: 1px solid var(--black-text);
+}
+
+.header._recruit_ .gnav-sub__inner {
+	border-top: none;
+}
