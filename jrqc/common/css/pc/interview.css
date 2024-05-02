@@ -48,13 +48,13 @@
 }
 
 .interview-list__number {
-	color: var(--light-blue);
+	color: #0085c5;
 	margin: 0 0 10px;
 	font-size: 2.0rem;
 }
 
 .interview-list__link {
-	color: var(--text-black);
+	color: #606060;
 	display: block;
 }
 
@@ -78,7 +78,7 @@
 
 .interview-list__name .__assignment {
 	color: var(--white);
-	background: var(--light-blue);
+	background: #0085c5;
 	font-size: 2.7rem;
 	padding: 0 10px;
 }

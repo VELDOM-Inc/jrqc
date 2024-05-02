@@ -310,14 +310,14 @@
 /*----- recruit専用 -----*/
 .h1._recruit_ {
 	height: 256px;
-	color: var(--light-blue);
+	color: #0085c5;
 	font-size: 4.8rem;
 	margin: 0;
 	background: none;
 }
 
 .h1._talk_ {
-	color: var(--light-blue);
+	color: #0085c5;
 	font-size: 4.8rem;
 	margin: 0 0 30px;
 	background: none;
@@ -328,7 +328,7 @@
 	background: rgba(0,113,185,0.25);
 	height: 226px;
 	margin: 0 0 50px;
-	color: var(--light-blue);
+	color: #0085c5;
 	font-size: 4.8rem;
 }
 
