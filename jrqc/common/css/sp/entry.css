@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* ============================================================ */
+/* .entry-bosyu */
+/* ============================================================ */
+.entry-bosyu {
+	font-size: 2.2rem;
+	margin: 90px 0;
+}
+
+/* ============================================================ */
+/* .entry-rikunabi */
+/* ============================================================ */
+.entry-rikunabi {
+	border: 1px solid var(--black);
+	margin: 0 0 65px;
+}
+
+.entry-rikunabi__link {
+	display: block;
+	width: 100%;
+	color: var(--black-text);
+	text-align: center;
+}
+
+.entry-rikunabi__ttl {
+	background: rgba(0,113,185,0.25);
+	text-align: center;
+	font-size: 2.4rem;
+	padding: 10px;
+}
+
+.entry-rikunabi__inner {
+	padding: 25px 40px 45px;
+}
+
+/* ============================================================ */
+/* .entry-contact */
+/* ============================================================ */
+.entry-contact {
+	margin: 0 0 50px;
+	line-height: 1.8;
+	font-size: 2.0rem;
+}
+
+/* ============================================================ */
+/* .career-job */
+/* ============================================================ */
+/*.career-job {
+	margin: 200px 0 70px;
+}
+
+.career-job__block {
+	margin: 0 0 70px;
+}
+
+.career-job__block:last-child {
+	margin: 0;
+}
+
+.table-recruit {
+	font-size: 1.8rem;
+	width: 100%;
+	word-break: break-all;
+	word-wrap: break-word;
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-weight: 400;
+}
+
+.table-recruit th ,
+.table-recruit td {
+	padding: 10px 20px;
+	border-top: 1px solid var(--black-text);
+	border-bottom: 1px solid var(--black-text);
+	background-clip: padding-box;
+	text-align: left;
+	vertical-align: top;
+}
+
+.table-recruit td {
+	border-left: 1px solid var(--black-text);
+}
+
+.table-recruit ._blue_ {
+	background: var(--light-blue);
+	color: var(--white);
+}
+
+.table-recruit ._light-blue_ {
+	background: rgba(0,113,185,0.25);
+}*/
+
+/* ============================================================ */
+/* .career-application */
+/* ============================================================ */
+/*.career-application {
+	margin: 0 0 70px;
+}*/
+
+/* ============================================================ */
+/* .career-treatment */
+/* ============================================================ */
+/*.career-treatment {
+	margin: 0 0 90px;
+}
+*/
+
