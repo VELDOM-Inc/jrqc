@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* ============================================================ */
+/* .talk-visual */
+/* ============================================================ */
+.talk-visual {
+}
+
+/* ============================================================ */
+/* .talk-member */
+/* ============================================================ */
+.talk-member {
+	background: rgba(210,210,210,0.75);
+	padding: 35px 15px 10px;
+	margin: 0 -15px 65px;
+}
+
+.talk-member__inner {
+}
+
+.talk-member__list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.talk-member__item {
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 30px;
+	width: calc(50% - 30px);
+	text-align: center;
+	line-height: 1.4;
+	font-size: 1.4rem;
+	font-weight: 500;
+}
+
+.talk-member__img {
+	margin: 0 0 10px;
+}
+
+.talk-member__img .__elem {
+	border: 7px solid var(--light-blue);
+	border-radius: 50%;
+}
+
+.talk-member__name {
+	margin: 0 0 10px;
+	display: flex;
+	flex-direction: column;
+	font-weight: 500;
+	color: #606060;
+}
+
+.talk-member__name .__assignment {
+	color: var(--light-blue);
+}
+
+.talk-member__name .__big {
+	font-size: 3.1rem;
+	margin: 0 15px 0 0;
+	line-height: 1.4;
+}
+
+.talk-member__school {
+	color: #424242;
+}
+
+.talk-member__txt {
+	color: #808080;
+}
+
+/* ============================================================ */
+/* .talk-block */
+/* ============================================================ */
+.talk-block {
+	margin: 0 15px 80px;
+}
+
+.talk-block__ttl {
+	color: #0085c5;
+	font-size: 2.0rem;
+	margin: 0 0 20px;
+	line-height: 1.6;
+	font-weight: 500;
+}
+
+.talk-block-detail {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 0 30px;
+}
+
+.talk-block-detail:last-child {
+	margin: 0;
+}
+
+.talk-block-detail__img {
+	width: 64px;
+}
+
+.talk-block-detail__img .__elem {
+	border: 3px solid #0085c5;
+	border-radius: 50%;
+}
+
+.talk-block-detail__txt {
+	width: calc((100% - 64px) - 15px);
+	padding: 15px 0 0;
+	line-height: 2.0;
+}
+
+.talk-block-thumbnail {
+	margin: 0 15px 160px;
+}
+
+.box__inner._talk_{
+	margin-top: 160px;
+}
+
+/* ============================================================ */
+/* .talk-img */
+/* ============================================================ */
+.talk-img {
+	margin: 0 15px 90px;
+}
+
+/* ============================================================ */
+/* .talk-bnr */
+/* ============================================================ */
+.talk-bnr {
+	margin: 150px -20px 70px;
+}

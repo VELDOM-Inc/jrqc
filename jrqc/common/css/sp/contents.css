@@ -146,9 +146,10 @@
 
 .h1._talk_ {
 	color: #0085c5;
-	font-size: 4.8rem;
-	margin: 0 0 30px;
-	background: none;
+	font-size: 2.5rem;
+	margin: -131px 0 0;
+	padding: 20px 15px 25px;
+	background: rgba(255,255,255,0.4);
 	height: auto;
 }
 
@@ -181,12 +182,29 @@
 	align-items: center;
 }
 
-.h1._talk_ .h1__ttl .__en ,
 .h1._recruit_ .h1__ttl .__en ,
 .h1._blue_ .h1__ttl .__en {
 	font-size: 1.8rem;
 	color: var(--black-text);
 	margin: 0 0 10px;
+}
+
+.h1._talk_ .h1__ttl .__jp {
+	order: 1;
+	color: var(--black-text);
+}
+
+.h1._talk_ .h1__ttl .__en {
+	font-size: 2.4rem;
+	margin: 0 0 10px;
+	order: 2;
+	font-weight: 500;
+}
+
+.h1._talk_ .txt_center {
+	color: #606060;
+	font-size: 1.8rem;
+	font-weight: 400;
 }
 
 /*----- h2 -----*/
@@ -1196,6 +1214,10 @@ input[type="checkbox"]:checked + .__txt::before {
 
 .box._gray_ {
 	background: var(--gray);
+}
+
+.box._black_ {
+	border: 1px solid var(--black);
 }
 
 /* --------------------------------------------------- */

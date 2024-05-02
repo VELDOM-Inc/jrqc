@@ -1100,6 +1100,10 @@ input[type="checkbox"]:checked + .__txt::before {
 	border: 1px solid var(--black-text);
 }
 
+.box._black_ {
+	border: 1px solid var(--black);
+}
+
 .box._gray_ {
 	background: var(--gray);
 }
