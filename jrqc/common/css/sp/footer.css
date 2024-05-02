@@ -132,11 +132,6 @@
 	height: 50px;
 }
 
-.pagetop__link:hover {
-	background: var(--white);
-	color: #5c5c5c;
-}
-
 .pagetop__link .__ico {
 	font-size: 3.0rem;
 	line-height: 1.0;

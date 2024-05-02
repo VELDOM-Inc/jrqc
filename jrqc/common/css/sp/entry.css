@@ -45,12 +45,12 @@
 /* ============================================================ */
 /* .career-job */
 /* ============================================================ */
-/*.career-job {
-	margin: 200px 0 70px;
+.career-job {
+	margin: 120px 0 75px;
 }
 
 .career-job__block {
-	margin: 0 0 70px;
+	margin: 0 0 80px;
 }
 
 .career-job__block:last-child {
@@ -65,43 +65,47 @@
 	border-collapse: collapse;
 	border-spacing: 0;
 	font-weight: 400;
+	border-bottom: 1px solid var(--black-text);
 }
 
 .table-recruit th ,
 .table-recruit td {
-	padding: 10px 20px;
+	padding: 10px;
 	border-top: 1px solid var(--black-text);
-	border-bottom: 1px solid var(--black-text);
-	background-clip: padding-box;
 	text-align: left;
-	vertical-align: top;
+	display: block;
 }
 
-.table-recruit td {
-	border-left: 1px solid var(--black-text);
+.table-recruit thead,
+.table-recruit tbody {
+	display: block;
+}
+
+.table-recruit tr {
+	display: block;
 }
 
 .table-recruit ._blue_ {
-	background: var(--light-blue);
+	background: rgba(0,113,185,0.7);
 	color: var(--white);
 }
 
 .table-recruit ._light-blue_ {
 	background: rgba(0,113,185,0.25);
-}*/
+}
 
 /* ============================================================ */
 /* .career-application */
 /* ============================================================ */
-/*.career-application {
-	margin: 0 0 70px;
-}*/
+.career-application {
+	margin: 0 0 75px;
+}
 
 /* ============================================================ */
 /* .career-treatment */
 /* ============================================================ */
-/*.career-treatment {
-	margin: 0 0 90px;
+.career-treatment {
+	margin: 0 0 85px;
 }
-*/
+
 

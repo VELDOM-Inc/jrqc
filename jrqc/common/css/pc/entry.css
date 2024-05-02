@@ -82,7 +82,7 @@
 }
 
 .table-recruit ._blue_ {
-	background: var(--light-blue);
+	background: rgba(0,113,185,0.7);
 	color: var(--white);
 }
 
