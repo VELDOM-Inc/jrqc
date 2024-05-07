@@ -16,7 +16,7 @@
 }
 
 .interview-list__item {
-	margin-bottom: 80px;
+	margin-bottom: 40px;
 	font-size: 2.0rem;
 	line-height: 1.4;
 }
@@ -126,12 +126,16 @@
 	margin: 0 20px 0 0;
 }
 
+.interview-list__name .__txt {
+	font-size: 2.7rem;
+}
+
 .interview-list._detail_ .interview-list__name .__big {
 	font-size: 3.7rem;
 }
 
 .interview-list._detail_ .interview-list__name .__txt {
-	font-size: 2.1rem;
+	font-size: 1.7rem;
 }
 
 .interview-list__school {
@@ -225,7 +229,7 @@
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-start;
-	font-size: 2.5rem;
+	font-size: 2.3rem;
 	font-weight: 500;
 }
 
@@ -354,6 +358,10 @@
 	position: relative;
 }
 
+.time-schedule__inner._ys_ .time-schedule-detail__item:first-child {
+	margin-bottom: 115px;
+}
+
 .time-schedule__ttl {
 	color: var(--white);
 	background: #0085c5;
@@ -433,6 +441,7 @@
 }
 
 .time-schedule-detail__item:last-child .time-schedule-detail-list__item:last-child .__time::after ,
+.time-schedule__inner._ys_ .time-schedule-detail__item:first-child .time-schedule-detail-list__item:last-child .__time::after ,
 .time-schedule-detail-list__item .__time._no-border_::after {
 	height: 8%;
 }
@@ -481,42 +490,44 @@
 .schedule-arrow__time .__time {
 	width: calc(100% + 30px);
 	margin: 0;
+	padding-bottom: 10px;
 }
 
 .schedule-arrow__txt {
-	width: calc(100% - 100px);
-	margin: 0 0 0 30px;
+	width: calc(100% - 152px);
+	margin: 0 0 0 70px;
 	display: flex;
 	justify-content: flex-start;
-	align-items: flex-start;
+	align-items: center;
 }
 
 .schedule-arrow__txt .__txt {
-	margin: 0 0 0 5.7rem;
-	padding: 30px 0 0;
 	font-size: 2.0rem;
 	font-weight: 500;
+	padding: 0 0 0 5.7rem;
+	width: calc(100% - 3.6rem);
 }
 
 .schedule-arrow__down {
 	font-size: 100px;
 	position: relative;
-	width: 4.5rem;
+	width: 45px;
 	height: 3.6rem;
 	background-color: var(--white);
-	margin: 0 0 0 3.5rem;
+	margin: -5rem 0 0 0;
 }
 
 .schedule-arrow__down::before {
 	position: absolute;
 	top: 3.6rem;
-	right: -3.7rem;
+	left: 50%;
 	width: 0;
 	height: 0;
 	content: "";
 	border-top: 5.5rem solid var(--white);
 	border-left: 5.5rem solid transparent;
 	border-right: 5.5rem solid transparent;
+	transform: translateX(-50%);
 }
 
 /* .time-schedule-off
