@@ -28,7 +28,8 @@
 
 .recruit-visual-slider__item .__elem {
 	border-radius: 25px;
-	width: 100%;
+	/*width: 100%;*/
+	max-width: 254px;
 	height: 189px;
 	object-fit: cover;
 	display: inline-block;
@@ -198,7 +199,7 @@
 }
 
 .recruit-date-time__ttl {
-	font-size: 2.8rem;
+	font-size: 2.9rem;
 	color: #0085c5;
 	font-weight: 500;
 	line-height: 1.4;
