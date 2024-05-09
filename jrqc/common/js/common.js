@@ -49,7 +49,7 @@ $(function () {
 
 /* アンカーリンク */
 const header = $('.header').outerHeight();
-$('a[href^="#"]').on('click', function() {
+$('a[href^="#"]').not('a[href^="#"]').on('click', function() {
 		const speed = 500,
 				href = $(this).attr("href"),
 				target = $(href == "#" || href == "" ? "html" : href),

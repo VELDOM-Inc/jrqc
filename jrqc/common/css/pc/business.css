@@ -259,6 +259,12 @@
 	flex-direction: column;
 }
 
+.structural-disaster-block__txt .__caption {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-end;
+}
+
 .structural-disaster-block__img {
 	width: 24.96%;
 }
@@ -709,6 +715,7 @@
 	margin: 0 10px;
 	opacity: 0.6;
 	transition: all .4s;
+	position: relative;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 900px) {
@@ -721,12 +728,24 @@
 	width: 100%;
 	height: 131px;
 	object-fit: cover;
+	position: relative;
+	z-index: 1;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 900px) {
 	.architectural-example-nav__item .__elem {
 		height: 100px;
 	}
+}
+
+.architectural-example-nav__item .__caption {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	z-index: 2;
+	background: var(--white);
+	padding: 3px;
+	font-size: 0.5rem;
 }
 
 .architectural-example-nav__item.slick-current {
@@ -741,6 +760,7 @@
 
 .facilities-results {
 	margin: 0 0 160px;
+	height: auto !important;
 }
 
 .facilities-results th ,

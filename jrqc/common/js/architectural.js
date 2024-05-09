@@ -28,15 +28,16 @@ $('.architectural-example-img').each(function( i ) {
 $(function() {
 		var current;
 		$.scrollify({
-			section:'.architectural-example', //対象要素を指定
+			section:'.architectural-example,.facilities-results', //対象要素を指定
 			easing: 'swing', // イージングを指定
 			scrollSpeed: 600, // スクロール時の速度
 			scrollbars: "false",
-			interstitialSection : "header,footer",
-			standardScrollElements: ".facilities-results,footer",
+			interstitialSection : ".header,.footer",
+			standardScrollElements: ".facilities-results,.footer",
 			touchScroll: "true",
 			offset: -135,
-			updateHash: false, // スクロール時アドレスバーのURLを更新
+			setHeights: "false",
+			updateHash: false
 		});
 		
 		$(window).on('resize',function(){
