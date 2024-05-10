@@ -760,7 +760,7 @@
 }
 
 .facilities-results {
-	margin: 0 0 160px;
+	/*margin: 0 0 160px;*/
 	height: auto !important;
 }
 
@@ -780,8 +780,8 @@
 
 /*  office
 ----------------------------------------------------------- */
-.architectural-office .footer {
-	padding-top: 205px;
+.architectural-office .fnav {
+	margin-top: 205px;
 }
 
 .office-inner {
@@ -794,8 +794,19 @@
 	margin: 0 0 150px;
 }
 
+.architectural-index .fnav {
+	margin-top: 170px;
+}
+
 /*  commercial
 ----------------------------------------------------------- */
-.architectural-commercial .footer {
-	padding-top: 170px;
+.architectural-commercial .fnav {
+	margin-top: 170px;
 }
+
+/*  facilities
+----------------------------------------------------------- */
+.architectural-facilities .fnav {
+	margin-top: 160px;
+}
+

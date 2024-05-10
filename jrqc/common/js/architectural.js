@@ -33,7 +33,7 @@ $(function() {
 			scrollSpeed: 600, // スクロール時の速度
 			scrollbars: "false",
 			interstitialSection : ".header,.footer",
-			standardScrollElements: ".footer",
+			standardScrollElements: ".footer,.facilities-results",
 			touchScroll: "true",
 			offset: -135,
 			setHeights: "false",
