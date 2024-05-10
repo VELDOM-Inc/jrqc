@@ -82,6 +82,24 @@
 	}
 }
 
+.yakuin-list {
+}
+
+.yakuin-list__item {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.yakuin-list__item .__class {
+	width: 15%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 950px) {
+	.yakuin-list__item .__class {
+		width: 30%;
+	}
+}
+
 /* ============================================================ */
 /* .about-office */
 /* ============================================================ */
@@ -142,13 +160,16 @@
 }
 
 .qualified-info-table__item .table th {
-	width: 70%;
+	width: calc(100% - 156px);
 	font-weight: 300;
 }
 
 .qualified-info-table__item .table td {
 	border-left: 1px solid var(--black-text);
-	width: 30%;
+	width: 156px;
+	padding-right: 55px;
+	padding-left: 55px;
+	text-align: right;
 }
 
 .qualified-info-table__item .table ._indent_ {

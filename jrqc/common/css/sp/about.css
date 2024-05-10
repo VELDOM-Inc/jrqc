@@ -70,8 +70,25 @@
 
 .about-outline .table ._border-left_ {
 	width: 73%;
+	padding-right: 0;
+	padding-left: 10px;
 }
 
+.yakuin-list {
+}
+
+.yakuin-list__item {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.yakuin-list__item .__class {
+	width: 50%;
+}
+
+.yakuin-list__item .__name {
+	width: 50%;
+}
 
 /* ============================================================ */
 /* .about-office */
