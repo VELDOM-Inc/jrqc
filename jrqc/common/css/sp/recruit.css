@@ -12,12 +12,12 @@
 
 .recruit-visual-slider {
 	height: 189px;
-	overflow: hidden;
+	/*overflow: hidden;*/
 	width: 100%;
 }
 
 .recruit-visual-slider__item {
-	overflow: hidden;
+	/*overflow: hidden;*/
 	border-radius: 25px;
 	/*display: flex;
 	justify-content: center;

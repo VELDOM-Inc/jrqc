@@ -26,11 +26,47 @@ $('.architectural-example-img').each(function( i ) {
 });
 
 $(function() {
+	if (!isSP()) {
+		var current;
+		
+		$.scrollify({
+			section : ".architectural-example",
+			scrollbars: "false",
+			interstitialSection : ".header,.footer",
+			easing: "swing",
+			standardScrollElements: ".facilities-results",
+			scrollSpeed: 500,
+			setHeights: "false",
+			touchScroll: "true",
+			offset: -135,
+			updateHash: false,
+			/*before:function(i,box){
+					current = i;
+			},*/
+		});
+		
+		$(window).on('resize',function(){
+				if(current){
+					var currentScrl = $('.architectural-example').eq(currentScrl).offset().top;
+					$(window).scrollTop(currentScrl);
+				}
+		});
+		
+		$('.pagetop__link').on('click', $.scrollify.move);
+	}
+	
+	if (isSP()) {
+  }
+});
+
+
+/*
+$(function() {
 		var current;
 		$.scrollify({
-			section:'.architectural-example,.facilities-results,.footer', //対象要素を指定
-			easing: 'swing', // イージングを指定
-			scrollSpeed: 600, // スクロール時の速度
+			section:'.architectural-example,.facilities-results,.footer', 
+			easing: 'swing', 
+			scrollSpeed: 600, 
 			scrollbars: "false",
 			interstitialSection : ".header,.footer,.facilities-results",
 			standardScrollElements: ".footer,.facilities-results",
@@ -54,4 +90,4 @@ $(function() {
 				offset: -57,
 			});
 		}
-});
+});*/

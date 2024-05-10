@@ -13,7 +13,7 @@
 
 .recruit-visual-slider {
 	height: 292px;
-	overflow: hidden;
+	/*overflow: hidden;*/
 	width: 100%;
 }
 
@@ -24,13 +24,15 @@
 }
 
 .recruit-visual-slider__item {
-	overflow: hidden;
+	/*overflow: hidden;*/
 	border-radius: 40px;
 	display: block !important;
 	/*display: flex;
 	justify-content: center;
 	align-items: center;*/
 	margin: 0 30px !important;
+	width: 392px;
+	height: 292px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1350px) {
@@ -44,7 +46,7 @@
 	width: 392px;
 	height: 292px;
 	object-fit: cover;
-	display: inline-block;
+	display: block !important;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1120px) {

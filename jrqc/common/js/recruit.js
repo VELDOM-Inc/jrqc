@@ -8,6 +8,7 @@ const commonOptions = {
   drag: 'free',
   flickPower: 5000,
   pagination: false,
+	fixedWidth: '392px',
   autoWidth: true,
   autoHeight: true,
   autoScroll: {
@@ -17,6 +18,7 @@ const commonOptions = {
   },
   breakpoints: {
     767: {
+			fixedWidth: '254px',
       autoScroll: {
       }
     }
@@ -39,3 +41,4 @@ rtlSplide.mount(window.splide.Extensions);
  
 const ltrSplide = new Splide(target_ltr, ltrOptions);
 ltrSplide.mount(window.splide.Extensions);
+
