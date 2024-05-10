@@ -560,7 +560,8 @@
 }
 
 .architectural-block._commercial_ {
-	margin-bottom: 170px;
+	margin-bottom: 0;
+	/*margin-bottom: 170px;*/
 }
 
 /*  .architectural-example
@@ -779,8 +780,12 @@
 
 /*  office
 ----------------------------------------------------------- */
+.architectural-office .footer {
+	padding-top: 205px;
+}
+
 .office-inner {
-	margin: 0 0 205px;
+	/*margin: 0 0 205px;*/
 }
 
 /*  index
@@ -789,4 +794,8 @@
 	margin: 0 0 150px;
 }
 
-
+/*  commercial
+----------------------------------------------------------- */
+.architectural-commercial .footer {
+	padding-top: 170px;
+}
