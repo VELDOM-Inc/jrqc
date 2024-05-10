@@ -28,11 +28,11 @@ $('.architectural-example-img').each(function( i ) {
 $(function() {
 		var current;
 		$.scrollify({
-			section:'.architectural-example,.facilities-results', //対象要素を指定
+			section:'.architectural-example,.facilities-results,.footer', //対象要素を指定
 			easing: 'swing', // イージングを指定
 			scrollSpeed: 600, // スクロール時の速度
 			scrollbars: "false",
-			interstitialSection : ".header,.footer",
+			interstitialSection : ".header,.footer,.facilities-results",
 			standardScrollElements: ".footer,.facilities-results",
 			touchScroll: "true",
 			offset: -135,
