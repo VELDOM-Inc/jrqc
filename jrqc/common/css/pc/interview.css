@@ -10,7 +10,7 @@
 }
 
 .interview-list._detail_ {
-	margin: 0 -35px 145px;
+	margin: 0 -37px 145px;
 	flex-wrap: nowrap;
 }
 
@@ -31,10 +31,10 @@
 }
 
 .interview-list._detail_ .interview-list__item {
-	margin-left: 35px;
-	margin-right: 35px;
+	margin-left: 37px;
+	margin-right: 37px;
 	margin-bottom: 0;
-	width: calc((100% - 280px) / 4);
+	width: calc((100% - 296px) / 4);
 	font-size: 1.8rem;
 	line-height: 1.2;
 }
