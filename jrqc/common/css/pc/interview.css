@@ -568,6 +568,7 @@
 
 .time-schedule-detail-list__content .__txt {
 	width: calc(100% - 19.51%);
+	font-size: 1.6rem;
 }
 
 .time-schedule-detail-list__item._time11_ .time-schedule-detail-list__content .__txt {
@@ -665,30 +666,25 @@
 }
 
 .time-schedule-detail-list__item._time10_ {
-	margin: -3.4em 0 0;
+	margin: -0.7em 0 0;
 }
-
+/*
 @media only screen and (min-width: 1000px) and (max-width: 1290px) {
 	.time-schedule-detail-list__item._time10_ {
-		margin: -1.5em 0 0;
+		margin: -2.5em 0 0;
 	}
-}
+}*/
 
 .time-schedule-detail-list__item._time11_ .__time::after {
 	height: 4.8rem;
 }
 
-@media only screen and (min-width: 1265px) and (max-width: 1290px) {
+@media only screen and (min-width: 768px) and (max-width: 1290px) {
 	.time-schedule-detail-list__item._time11_ .__time::after {
-		height: 2em;
+		height: 9rem !important;
 	}
 }
 
-@media only screen and (min-width: 1000px) and (max-width: 1085px) {
-	.time-schedule-detail-list__item._time11_ .__time::after {
-		height: 7rem;
-	}
-}
 
 /* .schedule-arrow
 ------------------------------------------------------------ */
@@ -743,6 +739,7 @@
 	margin: 0 0 0 5.7rem;
 	padding: 30px 0 0;
 	font-size: 2.0rem;
+	font-weight: 500;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1290px) {
