@@ -49,7 +49,7 @@ $(function () {
 
 /* アンカーリンク */
 const header = $('.header').outerHeight();
-$('a[href^="#"]').not('a[href^="#"]').on('click', function() {
+$('a[href^="#"]').on('click', function() {
 		const speed = 500,
 				href = $(this).attr("href"),
 				target = $(href == "#" || href == "" ? "html" : href),
@@ -81,27 +81,6 @@ if (!isMobile) {
     e.preventDefault();
   });
 }
-
-// animation
-$(function () {
-    // ウィンドウをスクロールしたら…
-    $(window).scroll(function () {
-        // ウィンドウの高さを取得
-        const wHeight = $(window).height();
-        // スクロールした量を取得
-        const wScroll = $(window).scrollTop();
-            // それぞれのblockクラスに対して…
-            $(".fade-up").each(function () {
-                // それぞれのblockクラスのウィンドウからの高さを取得
-                const bPosition = $(this).offset().top;
-                // スクロールした量が要素の高さを上回ったら
-                // その数値にウィンドウの高さを引き、最後に200pxを足す
-            if (wScroll > bPosition - wHeight + 200) {
-                $(this).addClass("is-active");
-            }
-        });
-    });
-});
 
 // pagetop
 //スクロールした際の動きを関数でまとめる
