@@ -163,7 +163,7 @@ $('.pagetop').click(function () {
 // ヘッダー内メニュー
 function mediaQueriesWin(){
 	var width = $(window).width();
-	if(width <= 768) {//横幅が768px以下の場合
+	if(width <= 834) {//横幅が834px以下の場合
 		$(".has-child>.gnav__link").off('click');	//has-childクラスがついたaタグのonイベントを複数登録を避ける為offにして一旦初期状態へ
 		$(".has-child>.gnav__link").on('click', function() {//has-childクラスがついたaタグをクリックしたら
 			var parentElem =  $(this).parent();// aタグから見た親要素の<li>を取得し
@@ -171,7 +171,7 @@ function mediaQueriesWin(){
 			$(parentElem).children('div').stop().slideToggle(500);//liの子要素のスライドを開閉させる※数字が大きくなるほどゆっくり開く
 			return false;//リンクの無効化
 		});
-	}else{//横幅が768px以上の場合
+	}else{//横幅が834px以上の場合
 		$(".has-child>.gnav__link").off('click');//has-childクラスがついたaタグのonイベントをoff(無効)にし
 		$(".has-child").removeClass('active');//activeクラスを削除
 		$('.has-child').children('div').css("display","");//スライドトグルで動作したdisplayも無効化にする
