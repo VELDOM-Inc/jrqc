@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+@import url(//fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap);
+@import url("/common/css/reset.css");
+@import url("/common/css/icon.css");
+@import url("/common/css/sp/common.css");
+@import url("/common/css/pc/general.css");
+@import url("/common/css/sp/header.css");
+@import url("/common/css/sp/footer.css");
+@import url("/common/css/sp/contents.css");
+@import url("/common/css/sp/about.css");
+@import url("/common/css/sp/contact.css");
+@import url("/common/css/sp/index.css");
+@import url("/common/css/sp/business.css");
+@import url("/common/css/sp/entry.css");
+@import url("/common/css/sp/interview.css");
+@import url("/common/css/sp/talk.css");
+@import url("/common/css/sp/recruit.css");
